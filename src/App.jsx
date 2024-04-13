@@ -1,9 +1,10 @@
 import "./App.css";
-
+import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
-      <h1>Bookwave</h1>
+      <NavBar />
+      <p>prvo tailwind da naucam heh</p>
     </>
   );
 }
