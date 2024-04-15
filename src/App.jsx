@@ -4,7 +4,6 @@ function App() {
   return (
     <>
       <NavBar />
-      <p>prvo tailwind da naucam heh</p>
     </>
   );
 }
