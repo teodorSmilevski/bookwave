@@ -6,6 +6,7 @@ import Categories from "./pages/Categories";
 import Comics from "./pages/Comics";
 import Bestsellers from "./pages/Bestsellers";
 import HomePage from "./pages/HomePage";
+// import {Categories, Comics, Bestsellers, HomePage} from "./pages"
 function App() {
   return (
     <>
