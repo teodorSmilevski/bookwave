@@ -22,6 +22,11 @@
   margin: 0 0.5rem;
   border-radius: 0.5rem;
 }
+
+#navbar ul li a:hover {
+  border-bottom: 1px solid #7d0a0a;
+}
+
 .nav-links {
   text-decoration: none;
 }
