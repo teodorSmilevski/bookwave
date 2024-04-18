@@ -4,13 +4,31 @@
   background-color: #f3edc8;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-#landing-page div {
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+#lp-div {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .lp-text {
-  justify-content: end;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+  font-size: 20px;
+}
+.lp-text span {
+  padding: 0.2rem 0.5rem;
+  width: 40%;
+  border-radius: 0.5rem;
+  background-color: #7d0a0a;
+  color: #f3edc8;
+}
+.lp-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
