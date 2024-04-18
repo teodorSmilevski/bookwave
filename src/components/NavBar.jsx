@@ -1,31 +1,42 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
+import { useState } from "react";
 export default function NavBar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  function handleMenuClick() {
+    setMenuOpen((old) => !old);
+  }
   return (
     <nav id="navbar">
       <Link to="/ " className="nav-links">
         <h1>Bookwave</h1>
       </Link>
-      <ul>
+      <div className="dropdown-menu" onClick={handleMenuClick}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
         <li>
-          <Link to="/new-books" className="nav-links">
+          <NavLink to="/new-books" className="nav-links">
             Whats new?
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/categories" className="nav-links">
+          <NavLink to="/categories" className="nav-links">
             Categories
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/bestsellers" className="nav-links">
+          <NavLink to="/bestsellers" className="nav-links">
             Bestsellers
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/comics" className="nav-links">
-            <span id="comic-link">Comics</span>
-          </Link>
+          <NavLink to="/comics" className="nav-links comic-link">
+            Comics
+          </NavLink>
         </li>
       </ul>
       <div className="nav-search-cart">
