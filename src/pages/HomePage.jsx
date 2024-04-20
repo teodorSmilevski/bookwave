@@ -5,9 +5,9 @@ export default function HomePage() {
     <section id="landing-page">
       <div id="lp-div">
         <div className="lp-text">
-          <h1>Discover worlds between the pages</h1>
+          <h1>Dive through the wave of books</h1>
           {/* <p>Unlock the magic of books at your fingertips</p> */}
-          <span> Discover today!</span>
+          <button> Discover today!</button>
         </div>
         <div className="lp-image">
           <img src={bookImg} alt="" />
