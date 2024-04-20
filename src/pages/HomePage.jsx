@@ -5,7 +5,9 @@ export default function HomePage() {
     <section id="landing-page">
       <div id="lp-div">
         <div className="lp-text">
-          <h1>Dive through the wave of books</h1>
+          <h1>
+            Dive through the <span>wave</span> of books
+          </h1>
           {/* <p>Unlock the magic of books at your fingertips</p> */}
           <button> Discover today!</button>
         </div>
