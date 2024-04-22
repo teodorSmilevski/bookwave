@@ -1,4 +1,4 @@
-import bookImg from "../assets/books-demo.png";
+import bookImg from "../assets/header-img.png";
 import "../components/HomePage.css";
 export default function HomePage() {
   return (
@@ -8,8 +8,13 @@ export default function HomePage() {
           <h1>
             Dive through the <span>wave</span> of books
           </h1>
-          {/* <p>Unlock the magic of books at your fingertips</p> */}
-          <button> Discover today!</button>
+          <p>
+            Welcome to our book store! Our store has something for everyone.
+            Whether you are seeking thrilling adventures, captivating romances,
+            insightful knowledge, or whimsical tales, we are here to help you
+            discover your next favorite book. <span>Happy reading!</span>
+          </p>
+          <button>Explore now </button>
         </div>
         <div className="lp-image">
           <img src={bookImg} alt="" />
