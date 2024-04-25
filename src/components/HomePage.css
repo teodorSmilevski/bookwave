@@ -85,7 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0rem;
+  padding: 5rem 0rem 2rem;
 }
 .quotes div {
   width: 60%;
@@ -111,6 +111,7 @@
 .na-wrapper {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   width: 70%;
 }
 .na-heading {
@@ -135,19 +136,32 @@
   background-color: #7d0a0a;
   color: white;
 }
+.na-cards {
+  display: flex;
+  justify-content: space-between;
+}
 /* SECTION: HOMEPAGE CARDS */
 .home-card {
-  padding: 0.5rem;
+  padding: 1rem 0.5rem 0rem;
   width: 15rem;
   height: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: red;
+  border: 1px solid #c7c7c7;
 }
 .home-card img {
   width: 10rem;
 }
+#hc-cart {
+  margin-top: 0.5rem;
+  color: #7d0a0a;
+  font-weight: 500;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
 /* SECTION: MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 600px) {
   #lp-div {

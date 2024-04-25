@@ -6,7 +6,16 @@ export default function HomePageCard({ title, author, img }) {
       <img src={img} alt="book img" />
       <h1>{title}</h1>
       <p>{author}</p>
-      <p>add to cart</p>
+
+      <div id="hc-cart">
+        <p>Add to cart</p>
+      </div>
     </div>
   );
 }
+
+HomePageCard.propTypes = {
+  img: PropTypes.string,
+  title: PropTypes.string,
+  author: PropTypes.string,
+};

@@ -8,8 +8,32 @@ export default function NewReleases() {
           <h1>NEW ARRIVALS</h1>
           <button>SEE ALL</button>
         </div>
-        <div>
-          <HomePageCard title="title1" author="author1" img={bookImg} />
+        <div className="na-cards">
+          <HomePageCard
+            title="Never Ending Sky"
+            author="Joseph Kirkland"
+            img={bookImg}
+          />
+          <HomePageCard
+            title="Never Ending Sky"
+            author="Joseph Kirkland"
+            img={bookImg}
+          />
+          <HomePageCard
+            title="Never Ending Sky"
+            author="Joseph Kirkland"
+            img={bookImg}
+          />
+          <HomePageCard
+            title="Never Ending Sky"
+            author="Joseph Kirkland"
+            img={bookImg}
+          />
+          <HomePageCard
+            title="Never Ending Sky"
+            author="Joseph Kirkland"
+            img={bookImg}
+          />
         </div>
       </div>
     </section>
