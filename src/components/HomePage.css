@@ -135,6 +135,19 @@
   background-color: #7d0a0a;
   color: white;
 }
+/* SECTION: HOMEPAGE CARDS */
+.home-card {
+  padding: 0.5rem;
+  width: 15rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: red;
+}
+.home-card img {
+  width: 10rem;
+}
 /* SECTION: MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 600px) {
   #lp-div {

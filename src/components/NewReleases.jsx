@@ -1,3 +1,5 @@
+import HomePageCard from "./HomePageCard";
+import bookImg from "../assets/book-example.jpg";
 export default function NewReleases() {
   return (
     <section className="new-arrivals">
@@ -7,8 +9,7 @@ export default function NewReleases() {
           <button>SEE ALL</button>
         </div>
         <div>
-          <h1>aaa</h1>
-          <h1>nn</h1>
+          <HomePageCard title="title1" author="author1" img={bookImg} />
         </div>
       </div>
     </section>
