@@ -79,7 +79,27 @@
   height: 500px;
 }
 /* SECTION: QUOTES */
-
+.quotes {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.quotes div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.quotes img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
 /* SECTION: MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 600px) {
   #lp-div {
@@ -95,6 +115,9 @@
   .lp-text button {
     width: 9rem;
     font-size: 16px;
+  }
+  .quotes div {
+    width: 90%;
   }
 }
 @media (min-width: 600px) and (max-width: 700px) {
