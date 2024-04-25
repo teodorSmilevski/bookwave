@@ -1,4 +1,4 @@
-export default function Categories() {
+export default function Bookstore() {
   return (
     <div>
       <p>

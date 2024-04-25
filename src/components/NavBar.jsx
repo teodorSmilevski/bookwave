@@ -21,23 +21,23 @@ export default function NavBar() {
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li>
-            <NavLink to="/new-books" className="nav-links">
-              Whats new?
+            <NavLink to="/" className="nav-links">
+              HOME
             </NavLink>
           </li>
           <li>
-            <NavLink to="/categories" className="nav-links">
-              Categories
+            <NavLink to="/bookstore" className="nav-links">
+              BOOKSTORE
             </NavLink>
           </li>
           <li>
-            <NavLink to="/bestsellers" className="nav-links">
-              Bestsellers
+            <NavLink to="/about" className="nav-links">
+              ABOUT
             </NavLink>
           </li>
           <li>
             <NavLink to="/comics" className="nav-links comic-link">
-              Comics
+              COMICS
             </NavLink>
           </li>
         </ul>

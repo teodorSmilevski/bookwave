@@ -2,10 +2,10 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 // TODO: SMENI GI VO DRUG FAJL INDEX.JS OVIE SITE
-import Categories from "./pages/Categories";
+import Bookstore from "./pages/Bookstore";
 import Comics from "./pages/Comics";
-import Bestsellers from "./pages/Bestsellers";
 import HomePage from "./pages/HomePage";
+import About from "./pages/About";
 // import {Categories, Comics, Bestsellers, HomePage} from "./pages"
 function App() {
   return (
@@ -13,9 +13,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/categories" element={<Categories />} />
-        <Route path="/new-books" element={<Categories />} />
-        <Route path="/bestsellers" element={<Bestsellers />} />
+        <Route path="/bookstore" element={<Bookstore />} />
+        <Route path="/about" element={<About />} />
+
         <Route path="/comics" element={<Comics />} />
       </Routes>
     </>
