@@ -81,11 +81,11 @@
 /* SECTION: QUOTES */
 .quotes {
   width: 100%;
-  height: 50vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0rem;
+  padding: 5rem 0rem;
 }
 .quotes div {
   width: 60%;
@@ -99,6 +99,41 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
+}
+/* SECTION: NEW RELEASES */
+.new-arrivals {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+.na-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.na-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.na-heading h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.na-heading button {
+  height: 1.7rem;
+  width: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7d0a0a;
+  background-color: transparent;
+  color: #7d0a0a;
+}
+.na-heading button:hover {
+  background-color: #7d0a0a;
+  color: white;
 }
 /* SECTION: MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 600px) {
