@@ -161,7 +161,18 @@
   justify-content: center;
   display: flex;
 }
-
+/* SECTION: COMICS FEATURE */
+#comic-feature {
+  background-image: url("../assets/comic-wallpaper.png");
+  width: 100%;
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 /* SECTION: MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 600px) {
   #lp-div {
