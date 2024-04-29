@@ -163,16 +163,37 @@
 }
 /* SECTION: COMICS FEATURE */
 #comic-feature {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+#comic-feature > div {
   background-image: url("../assets/comic-wallpaper.png");
-  width: 100%;
+  width: 80%;
   background-size: cover;
-  height: 50vh;
+  height: 40vh;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 3rem;
+  gap: 1rem;
 }
+#cf-text {
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#comic-feature a {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
 /* SECTION: MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 600px) {
   #lp-div {
