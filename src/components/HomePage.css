@@ -139,7 +139,10 @@
 .na-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
 }
+
 /* SECTION: HOMEPAGE CARDS */
 .home-card {
   padding: 1rem 0.5rem 0rem;
@@ -250,6 +253,9 @@
 }
 @media (min-width: 1000px) and (max-width: 1400px) {
   #lp-div {
+    width: 90%;
+  }
+  .na-wrapper {
     width: 90%;
   }
 }

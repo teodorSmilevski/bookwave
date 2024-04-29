@@ -19,11 +19,7 @@ export default function NewReleases() {
             author="Joseph Kirkland"
             img={bookImg}
           />
-          <HomePageCard
-            title="Never Ending Sky"
-            author="Joseph Kirkland"
-            img={bookImg}
-          />
+
           <HomePageCard
             title="Never Ending Sky"
             author="Joseph Kirkland"
