@@ -6,6 +6,7 @@ import Bookstore from "./pages/Bookstore";
 import Comics from "./pages/Comics";
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 // import {Categories, Comics, Bestsellers, HomePage} from "./pages"
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 
         <Route path="/comics" element={<Comics />} />
       </Routes>
+      <Footer />
     </>
   );
 }
