@@ -43,7 +43,7 @@ export default function NavBar() {
         </ul>
         <div className="nav-search-cart">
           <i className="bx bx-search bx-sm"></i>
-          <i className="bx bx-cart bx-md" style={{ color: "#7d0a0a" }}></i>
+          <i className="bx bx-cart bx-sm"></i>
         </div>
       </nav>
     </section>
