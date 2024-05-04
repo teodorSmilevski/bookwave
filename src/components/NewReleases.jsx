@@ -1,5 +1,6 @@
 import HomePageCard from "./HomePageCard";
-import bookImg from "../assets/book-example.jpg";
+
+import book from "../assets/data/new-arrivals.json";
 export default function NewReleases() {
   return (
     <section className="new-arrivals">
@@ -9,27 +10,14 @@ export default function NewReleases() {
           <button>SEE ALL</button>
         </div>
         <div className="na-cards">
-          <HomePageCard
-            title="Never Ending Sky"
-            author="Joseph Kirkland"
-            img={bookImg}
-          />
-          <HomePageCard
-            title="Never Ending Sky"
-            author="Joseph Kirkland"
-            img={bookImg}
-          />
-
-          <HomePageCard
-            title="Never Ending Sky"
-            author="Joseph Kirkland"
-            img={bookImg}
-          />
-          <HomePageCard
-            title="Never Ending Sky"
-            author="Joseph Kirkland"
-            img={bookImg}
-          />
+          {book.map((item) => (
+            <HomePageCard
+              key={item.title}
+              title={item.title}
+              author={item.author}
+              img={item.imageLink}
+            />
+          ))}
         </div>
       </div>
     </section>
