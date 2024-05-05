@@ -157,6 +157,7 @@
 }
 .home-card img {
   width: 10rem;
+  height: 100%;
 }
 #hc-cart {
   margin-top: 0.5rem;
