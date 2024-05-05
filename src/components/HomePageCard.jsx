@@ -1,13 +1,24 @@
 import PropTypes from "prop-types";
-
+import { Link } from "react-router-dom";
 export default function HomePageCard({ title, author, img }) {
   return (
     <div className="home-card">
-      <img src={img} alt="book img" />
-      <h1>{title}</h1>
-      <p>{author}</p>
+      <div>
+        <Link>
+          <img src={img} alt="book img" />
+        </Link>
+        <div id="title-author">
+          <Link>
+            <h1>{title}</h1>
+          </Link>
+          <strong>
+            <p>{author}</p>
+          </strong>
+        </div>
+      </div>
 
       <div id="hc-cart">
+        {/* TODO: ADD TO CART */}
         <p>Add to cart</p>
       </div>
     </div>
