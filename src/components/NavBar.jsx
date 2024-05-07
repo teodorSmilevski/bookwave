@@ -1,51 +1,50 @@
-import logo from "../assets/bookwave-logo.png";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
+
+// import Login from "../pages/Login.jsx";
+import logo from "../assets/bookwave-logo.png";
 import { useState } from "react";
+
 export default function NavBar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function handleMenuClick() {
-    setMenuOpen((old) => !old);
+    setIsMenuOpen((oldState) => !oldState);
+  }
+  function turnToFalse() {
+    setIsMenuOpen(false);
   }
   return (
-    <section id="nav-body">
-      <nav id="navbar">
-        <Link to="/ " className="nav-links">
-          <img src={logo} alt="" />
-        </Link>
-        <div className="dropdown-menu" onClick={handleMenuClick}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul className={menuOpen ? "open" : ""}>
-          <li>
-            <NavLink to="/" className="nav-links">
-              HOME
-            </NavLink>
+    <nav>
+      <Link to="/" className="logo">
+        <img src={logo} alt="logo" />
+      </Link>
+      <label htmlFor="" className="menu-icon" onClick={handleMenuClick}>
+        {!isMenuOpen ? <i className="bx bx-menu"></i> : <p>✖</p>}
+      </label>
+      <div>
+        <ul className={isMenuOpen ? "dropdown-menu" : "menu-list"}>
+          <li onClick={turnToFalse}>
+            <Link to="/">HOME</Link>
           </li>
-          <li>
-            <NavLink to="/bookstore" className="nav-links">
-              BOOKSTORE
-            </NavLink>
+
+          <li onClick={turnToFalse}>
+            <Link to="/bookstore">BOOKSTORE</Link>
           </li>
-          <li>
-            <NavLink to="/about" className="nav-links">
-              ABOUT
-            </NavLink>
+          <li onClick={turnToFalse}>
+            <Link to="/about">ABOUT</Link>
           </li>
-          <li>
-            <NavLink to="/comics" className="nav-links comic-link">
+          <li onClick={turnToFalse}>
+            <Link to="/comics" className="comic-link">
               COMICS
-            </NavLink>
+            </Link>
           </li>
         </ul>
-        <div className="nav-search-cart">
-          <i className="bx bx-search bx-sm"></i>
-          <i className="bx bx-cart bx-sm"></i>
-        </div>
-      </nav>
-    </section>
+      </div>
+      <div className="nav-search-cart">
+        <i className="bx bx-search bx-sm"></i>
+        <i className="bx bx-cart bx-sm"></i>
+      </div>
+    </nav>
   );
 }
