@@ -59,23 +59,24 @@ nav a {
     flex-direction: column;
     align-items: center;
     left: 0;
-    top: 3.9rem;
+    top: 3.2rem;
     width: 100%;
     height: 13rem;
     background-color: var(--beige);
     animation-name: openmenu;
     animation-duration: 0.5s;
   }
-
   nav p {
     font-size: 2rem;
   }
   @keyframes openmenu {
     from {
       height: 0px;
+      opacity: 0;
     }
     to {
       height: 13rem;
+      opacity: 1;
     }
   }
 
