@@ -32,5 +32,32 @@
   flex-wrap: wrap;
 }
 #filter {
-  /* background-color: rgba(0, 0, 0, 0.13); */
+  padding-left: 0.5rem;
+}
+#select-filter {
+  padding: 1rem 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.13);
+}
+#select-filter select {
+  width: 8rem;
+  height: 1.5rem;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+}
+#select-filter option {
+  padding: 1rem;
+}
+.sf-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.3rem;
+}
+.sf-wrapper > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

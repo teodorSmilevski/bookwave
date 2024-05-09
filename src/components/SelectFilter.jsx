@@ -8,6 +8,9 @@ export default function SelectFilter({ name, filterName }) {
     <div id="select-filter">
       <label htmlFor={name}> {name}</label> <br />
       <select name={name} id={name}>
+        <option value="any" selected="selected">
+          ...
+        </option>
         {filters.map((index) => (
           <option value={index} key={index}>
             {index}

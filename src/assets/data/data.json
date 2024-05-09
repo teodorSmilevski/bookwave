@@ -21,7 +21,7 @@
     "title": "Fairy tales",
     "year": 1836,
     "price": 12.5,
-    "genre": "Children's Literature"
+    "genre": "Adventure"
   },
   {
     "author": "Dante Alighieri",
@@ -40,9 +40,9 @@
     "country": "Sumer and Akkadian Empire",
     "imageLink": "images/the-epic-of-gilgamesh.jpg",
     "language": "Akkadian",
-    "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
+    "link": "https://en.wikipedia.org/wiki/Adventure_of_Gilgamesh\n",
     "pages": 160,
-    "title": "The Epic Of Gilgamesh",
+    "title": "The Adventure Of Gilgamesh",
     "year": -1700,
     "price": 9,
     "genre": "Poetry"
@@ -57,7 +57,7 @@
     "title": "The Book Of Job",
     "year": -600,
     "price": 8.3,
-    "genre": "Religious Literature"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Unknown",
@@ -69,7 +69,7 @@
     "title": "One Thousand and One Nights",
     "year": 1200,
     "price": 10.5,
-    "genre": "Folklore"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Unknown",
@@ -105,7 +105,7 @@
     "title": "Le P\u00e8re Goriot",
     "year": 1835,
     "price": 7,
-    "genre": "Realism"
+    "genre": "Drama"
   },
   {
     "author": "Samuel Beckett",
@@ -129,7 +129,7 @@
     "title": "The Decameron",
     "year": 1351,
     "price": 10.5,
-    "genre": "Collection of Novellas"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Jorge Luis Borges",
@@ -141,7 +141,7 @@
     "title": "Ficciones",
     "year": 1965,
     "price": 10.2,
-    "genre": "Short Stories"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Emily Bront\u00eb",
@@ -165,7 +165,7 @@
     "title": "The Stranger",
     "year": 1942,
     "price": 7,
-    "genre": "Existentialism"
+    "genre": "Drama"
   },
   {
     "author": "Paul Celan",
@@ -274,7 +274,7 @@
     "title": "Berlin Alexanderplatz",
     "year": 1929,
     "price": 9.7,
-    "genre": "Modernist Literature"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Fyodor Dostoevsky",
@@ -370,7 +370,7 @@
     "title": "Absalom, Absalom!",
     "year": 1936,
     "price": 10.2,
-    "genre": "Southern Gothic"
+    "genre": "Drama"
   },
   {
     "author": "William Faulkner",
@@ -382,7 +382,7 @@
     "title": "The Sound and the Fury",
     "year": 1929,
     "price": 11,
-    "genre": "Modernist Literature"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Gustave Flaubert",
@@ -430,7 +430,7 @@
     "title": "One Hundred Years of Solitude",
     "year": 1967,
     "price": 13,
-    "genre": "Magical Realism"
+    "genre": "Drama"
   },
   {
     "author": "Gabriel García Márquez",
@@ -466,7 +466,7 @@
     "title": "Dead Souls",
     "year": 1842,
     "price": 14,
-    "genre": "Satire"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Günter Grass",
@@ -478,7 +478,7 @@
     "title": "The Tin Drum",
     "year": 1959,
     "price": 7,
-    "genre": "Magical Realism"
+    "genre": "Drama"
   },
   {
     "author": "João Guimarães Rosa",
@@ -575,7 +575,7 @@
     "title": "Stories",
     "year": 1924,
     "price": 11.2,
-    "genre": "Short Stories"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Franz Kafka",
@@ -696,7 +696,7 @@
     "title": "Pippi Longstocking",
     "year": 1945,
     "price": 10,
-    "genre": "Children's Literature"
+    "genre": "Adventure"
   },
   {
     "author": "Lu Xun",
@@ -720,7 +720,7 @@
     "title": "Children of Gebelawi",
     "year": 1959,
     "price": 12,
-    "genre": "Magical Realism"
+    "genre": "Drama"
   },
   {
     "author": "Thomas Mann",
@@ -792,7 +792,7 @@
     "title": "Beloved",
     "year": 1987,
     "price": 13,
-    "genre": "Magical Realism"
+    "genre": "Drama"
   },
 
   {
@@ -901,7 +901,7 @@
     "title": "Gargantua and Pantagruel",
     "year": 1533,
     "price": 9.7,
-    "genre": "Satire"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Juan Rulfo",
@@ -913,7 +913,7 @@
     "title": "Pedro Páramo",
     "year": 1955,
     "price": 10.2,
-    "genre": "Magical Realism"
+    "genre": "Drama"
   },
   {
     "author": "Rumi",
@@ -937,7 +937,7 @@
     "title": "Midnight's Children",
     "year": 1981,
     "price": 12,
-    "genre": "Magical Realism"
+    "genre": "Drama"
   },
   {
     "author": "Saadi",
@@ -1046,7 +1046,7 @@
     "title": "The Life And Opinions of Tristram Shandy",
     "year": 1760,
     "price": 11,
-    "genre": "Satire"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Italo Svevo",
@@ -1070,7 +1070,7 @@
     "title": "Gulliver's Travels",
     "year": 1726,
     "price": 12,
-    "genre": "Satire"
+    "genre": "Non-Fiction"
   },
   {
     "author": "Leo Tolstoy",
@@ -1131,7 +1131,7 @@
     "title": "Ramayana",
     "year": -450,
     "price": 10.2,
-    "genre": "Epic"
+    "genre": "Adventure"
   },
   {
     "author": "Virgil",
@@ -1143,7 +1143,7 @@
     "title": "The Aeneid",
     "year": -23,
     "price": 9.7,
-    "genre": "Epic"
+    "genre": "Adventure"
   },
   {
     "author": "Vyasa",
@@ -1155,7 +1155,7 @@
     "title": "Mahabharata",
     "year": -700,
     "price": 10.2,
-    "genre": "Epic"
+    "genre": "Adventure"
   },
   {
     "author": "Walt Whitman",
