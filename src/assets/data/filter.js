@@ -51,15 +51,15 @@ const filter = {
     "Sweden",
     "China",
   ],
-  price: ["0.5", "5-10", "10-15"],
+  price: ["0-5", "5-10", "10-15"],
   genre: [
-    "Non-Fiction",
     "Fiction",
     "Drama",
-    "Romance",
-    "Poetry",
-    "Tragedy",
     "Adventure",
+    "Poetry",
+    "Romance",
+    "Non-Fiction",
+    "Tragedy",
     "Children's Literature",
     "Folklore",
     "Satire",
@@ -71,7 +71,6 @@ const filter = {
     "Realism",
     "Magical Realism",
     "Existentialism",
-
     "Epic",
   ],
 };

@@ -189,7 +189,7 @@
     "title": "Journey to the End of the Night",
     "year": 1932,
     "price": 12,
-    "genre": "Fiction"
+    "genre": "Adventure"
   },
   {
     "author": "Miguel de Cervantes",
@@ -225,7 +225,7 @@
     "title": "Stories",
     "year": 1886,
     "price": 9.7,
-    "genre": "Fiction"
+    "genre": "Drama"
   },
   {
     "author": "Joseph Conrad",
@@ -298,7 +298,7 @@
     "title": "The Idiot",
     "year": 1869,
     "price": 11,
-    "genre": "Fiction"
+    "genre": "Drama"
   },
   {
     "author": "Fyodor Dostoevsky",
@@ -394,7 +394,7 @@
     "title": "Madame Bovary",
     "year": 1857,
     "price": 12,
-    "genre": "Fiction"
+    "genre": "Romance"
   },
   {
     "author": "Gustave Flaubert",
@@ -406,7 +406,7 @@
     "title": "Sentimental Education",
     "year": 1869,
     "price": 10.2,
-    "genre": "Fiction"
+    "genre": "Drama"
   },
   {
     "author": "Federico García Lorca",
@@ -503,7 +503,7 @@
     "title": "Hunger",
     "year": 1890,
     "price": 9.1,
-    "genre": "Fiction"
+    "genre": "Drama"
   },
   {
     "author": "Ernest Hemingway",
@@ -1191,7 +1191,7 @@
     "title": "To the Lighthouse",
     "year": 1927,
     "price": 9.7,
-    "genre": "Fiction"
+    "genre": "Drama"
   },
   {
     "author": "Marguerite Yourcenar",
@@ -1203,6 +1203,6 @@
     "title": "Memoirs of Hadrian",
     "year": 1951,
     "price": 10.2,
-    "genre": "Fiction"
+    "genre": "Adventure"
   }
 ]

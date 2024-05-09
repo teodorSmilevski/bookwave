@@ -2,10 +2,11 @@ import "../components/Bookstore.css";
 import books from "../assets/data/data.json";
 import HomePageCard from "../components/HomePageCard";
 import Filter from "../components/Filter";
+import BooksHeader from "../components/BooksHeader";
 export default function Bookstore() {
   return (
     <section id="bookstore">
-      <div id="books-header">sortiraj i naslov</div>
+      <BooksHeader />
       <div id="books-wrapper">
         <Filter />
         <div id="books">
