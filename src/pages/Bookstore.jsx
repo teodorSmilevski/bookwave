@@ -1,9 +1,12 @@
 import "../components/Bookstore.css";
-import books from "../assets/data/data.json";
-import HomePageCard from "../components/HomePageCard";
+import { useContext } from "react";
+import { FilterContext } from "../store/filter-items-context";
+import ProductCard from "../components/ProductCard";
 import Filter from "../components/Filter";
 import BooksHeader from "../components/BooksHeader";
 export default function Bookstore() {
+  const { books } = useContext(FilterContext);
+  books.sort((a, b) => a.id - b.id);
   return (
     <section id="bookstore">
       <BooksHeader />
@@ -11,10 +14,11 @@ export default function Bookstore() {
         <Filter />
         <div id="books">
           {books.map((item) => (
-            <HomePageCard
-              key={item.title}
+            <ProductCard
+              key={item.id}
               title={item.title}
               author={item.author}
+              genre={item.genre}
               img={item.imageLink}
             />
           ))}

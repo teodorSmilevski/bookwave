@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router-dom";
+import FilterContextProvider from "./store/filter-items-context";
+
 import "./App.css";
 import NavBar from "./components/NavBar";
 // TODO: SMENI GI VO DRUG FAJL INDEX.JS OVIE SITE
@@ -14,7 +16,16 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/bookstore" element={<Bookstore />} />
+
+        <Route
+          path="/bookstore"
+          element={
+            <FilterContextProvider>
+              <Bookstore />{" "}
+            </FilterContextProvider>
+          }
+        />
+
         <Route path="/about" element={<About />} />
         <Route path="/comics" element={<Comics />} />
       </Routes>

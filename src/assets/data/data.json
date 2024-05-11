@@ -1,10 +1,11 @@
 [
   {
+    "id": 1,
     "author": "Chinua Achebe",
     "country": "Nigeria",
     "imageLink": "images/things-fall-apart.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
+    "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart",
     "pages": 209,
     "title": "Things Fall Apart",
     "year": 1958,
@@ -12,11 +13,12 @@
     "genre": "Fiction"
   },
   {
+    "id": 2,
     "author": "Hans Christian Andersen",
     "country": "Denmark",
     "imageLink": "images/fairy-tales.jpg",
     "language": "Danish",
-    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
+    "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.",
     "pages": 784,
     "title": "Fairy tales",
     "year": 1836,
@@ -24,11 +26,12 @@
     "genre": "Adventure"
   },
   {
+    "id": 3,
     "author": "Dante Alighieri",
     "country": "Italy",
     "imageLink": "images/the-divine-comedy.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
+    "link": "https://en.wikipedia.org/wiki/Divine_Comedy",
     "pages": 928,
     "title": "The Divine Comedy",
     "year": 1315,
@@ -36,11 +39,12 @@
     "genre": "Poetry"
   },
   {
+    "id": 4,
     "author": "Unknown",
     "country": "Sumer and Akkadian Empire",
     "imageLink": "images/the-epic-of-gilgamesh.jpg",
     "language": "Akkadian",
-    "link": "https://en.wikipedia.org/wiki/Adventure_of_Gilgamesh\n",
+    "link": "https://en.wikipedia.org/wiki/Adventure_of_Gilgamesh",
     "pages": 160,
     "title": "The Adventure Of Gilgamesh",
     "year": -1700,
@@ -48,11 +52,12 @@
     "genre": "Poetry"
   },
   {
+    "id": 5,
     "author": "Unknown",
     "country": "Achaemenid Empire",
     "imageLink": "images/the-book-of-job.jpg",
     "language": "Hebrew",
-    "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
+    "link": "https://en.wikipedia.org/wiki/Book_of_Job",
     "pages": 176,
     "title": "The Book Of Job",
     "year": -600,
@@ -60,11 +65,12 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 6,
     "author": "Unknown",
-    "country": "India/Iran/Iraq/Egypt/Tajikistan",
+    "country": "India",
     "imageLink": "images/one-thousand-and-one-nights.jpg",
     "language": "Arabic",
-    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
+    "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights",
     "pages": 288,
     "title": "One Thousand and One Nights",
     "year": 1200,
@@ -72,23 +78,25 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 7,
     "author": "Unknown",
     "country": "Iceland",
     "imageLink": "images/njals-saga.jpg",
     "language": "Old Norse",
-    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
+    "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga",
     "pages": 384,
     "title": "Nj\u00e1l's Saga",
     "year": 1350,
     "price": 10,
-    "genre": "Icelandic Saga"
+    "genre": "Adventure"
   },
   {
+    "id": 8,
     "author": "Jane Austen",
     "country": "United Kingdom",
     "imageLink": "images/pride-and-prejudice.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
+    "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice",
     "pages": 226,
     "title": "Pride and Prejudice",
     "year": 1813,
@@ -96,11 +104,12 @@
     "genre": "Romance"
   },
   {
+    "id": 9,
     "author": "Honor\u00e9 de Balzac",
     "country": "France",
     "imageLink": "images/le-pere-goriot.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
+    "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot",
     "pages": 443,
     "title": "Le P\u00e8re Goriot",
     "year": 1835,
@@ -108,11 +117,12 @@
     "genre": "Drama"
   },
   {
+    "id": 10,
     "author": "Samuel Beckett",
-    "country": "Republic of Ireland",
+    "country": "Ireland",
     "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
     "language": "French, English",
-    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
     "pages": 256,
     "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
     "year": 1952,
@@ -120,11 +130,12 @@
     "genre": "Fiction"
   },
   {
+    "id": 11,
     "author": "Giovanni Boccaccio",
     "country": "Italy",
     "imageLink": "images/the-decameron.jpg",
     "language": "Italian",
-    "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
+    "link": "https://en.wikipedia.org/wiki/The_Decameron",
     "pages": 1024,
     "title": "The Decameron",
     "year": 1351,
@@ -132,11 +143,12 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 12,
     "author": "Jorge Luis Borges",
     "country": "Argentina",
     "imageLink": "images/ficciones.jpg",
     "language": "Spanish",
-    "link": "https://en.wikipedia.org/wiki/Ficciones\n",
+    "link": "https://en.wikipedia.org/wiki/Ficciones",
     "pages": 224,
     "title": "Ficciones",
     "year": 1965,
@@ -144,11 +156,12 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 13,
     "author": "Emily Bront\u00eb",
     "country": "United Kingdom",
     "imageLink": "images/wuthering-heights.jpg",
     "language": "English",
-    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
+    "link": "https://en.wikipedia.org/wiki/Wuthering_Heights",
     "pages": 342,
     "title": "Wuthering Heights",
     "year": 1847,
@@ -156,18 +169,21 @@
     "genre": "Fiction"
   },
   {
+    "id": 14,
     "author": "Albert Camus",
     "country": "Algeria, French Empire",
     "imageLink": "images/l-etranger.jpg",
     "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
     "pages": 185,
     "title": "The Stranger",
     "year": 1942,
     "price": 7,
     "genre": "Drama"
   },
+
   {
+    "id": 16,
     "author": "Paul Celan",
     "country": "Romania, France",
     "imageLink": "images/poems-paul-celan.jpg",
@@ -180,6 +196,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 17,
     "author": "Louis-Ferdinand C\u00e9line",
     "country": "France",
     "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
@@ -192,6 +209,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 18,
     "author": "Miguel de Cervantes",
     "country": "Spain",
     "imageLink": "images/don-quijote-de-la-mancha.jpg",
@@ -204,6 +222,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 19,
     "author": "Geoffrey Chaucer",
     "country": "England",
     "imageLink": "images/the-canterbury-tales.jpg",
@@ -216,6 +235,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 20,
     "author": "Anton Chekhov",
     "country": "Russia",
     "imageLink": "images/stories-of-anton-chekhov.jpg",
@@ -228,6 +248,7 @@
     "genre": "Drama"
   },
   {
+    "id": 21,
     "author": "Joseph Conrad",
     "country": "United Kingdom",
     "imageLink": "images/nostromo.jpg",
@@ -239,8 +260,8 @@
     "price": 10.2,
     "genre": "Adventure"
   },
-
   {
+    "id": 22,
     "author": "Charles Dickens",
     "country": "United Kingdom",
     "imageLink": "images/great-expectations.jpg",
@@ -253,6 +274,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 23,
     "author": "Denis Diderot",
     "country": "France",
     "imageLink": "images/jacques-the-fatalist.jpg",
@@ -265,6 +287,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 24,
     "author": "Alfred D\u00f6blin",
     "country": "Germany",
     "imageLink": "images/berlin-alexanderplatz.jpg",
@@ -276,7 +299,9 @@
     "price": 9.7,
     "genre": "Non-Fiction"
   },
+
   {
+    "id": 25,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "imageLink": "images/crime-and-punishment.jpg",
@@ -289,6 +314,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 26,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "imageLink": "images/the-idiot.jpg",
@@ -301,6 +327,7 @@
     "genre": "Drama"
   },
   {
+    "id": 27,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "imageLink": "images/the-possessed.jpg",
@@ -313,6 +340,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 28,
     "author": "Fyodor Dostoevsky",
     "country": "Russia",
     "imageLink": "images/the-brothers-karamazov.jpg",
@@ -325,6 +353,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 29,
     "author": "George Eliot",
     "country": "United Kingdom",
     "imageLink": "images/middlemarch.jpg",
@@ -337,6 +366,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 30,
     "author": "Ralph Ellison",
     "country": "United States",
     "imageLink": "images/invisible-man.jpg",
@@ -349,6 +379,7 @@
     "genre": "Drama"
   },
   {
+    "id": 31,
     "author": "Euripides",
     "country": "Greece",
     "imageLink": "images/medea.jpg",
@@ -361,6 +392,7 @@
     "genre": "Tragedy"
   },
   {
+    "id": 32,
     "author": "William Faulkner",
     "country": "United States",
     "imageLink": "images/absalom-absalom.jpg",
@@ -373,6 +405,7 @@
     "genre": "Drama"
   },
   {
+    "id": 33,
     "author": "William Faulkner",
     "country": "United States",
     "imageLink": "images/the-sound-and-the-fury.jpg",
@@ -385,6 +418,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 34,
     "author": "Gustave Flaubert",
     "country": "France",
     "imageLink": "images/madame-bovary.jpg",
@@ -397,6 +431,7 @@
     "genre": "Romance"
   },
   {
+    "id": 35,
     "author": "Gustave Flaubert",
     "country": "France",
     "imageLink": "images/l-education-sentimentale.jpg",
@@ -409,6 +444,7 @@
     "genre": "Drama"
   },
   {
+    "id": 36,
     "author": "Federico García Lorca",
     "country": "Spain",
     "imageLink": "images/gypsy-ballads.jpg",
@@ -421,6 +457,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 37,
     "author": "Gabriel García Márquez",
     "country": "Colombia",
     "imageLink": "images/one-hundred-years-of-solitude.jpg",
@@ -432,7 +469,9 @@
     "price": 13,
     "genre": "Drama"
   },
+
   {
+    "id": 38,
     "author": "Gabriel García Márquez",
     "country": "Colombia",
     "imageLink": "images/love-in-the-time-of-cholera.jpg",
@@ -445,6 +484,7 @@
     "genre": "Romance"
   },
   {
+    "id": 39,
     "author": "Johann Wolfgang von Goethe",
     "country": "Saxe-Weimar",
     "imageLink": "images/faust.jpg",
@@ -457,6 +497,7 @@
     "genre": "Tragedy"
   },
   {
+    "id": 40,
     "author": "Nikolai Gogol",
     "country": "Russia",
     "imageLink": "images/dead-souls.jpg",
@@ -469,6 +510,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 41,
     "author": "Günter Grass",
     "country": "Germany",
     "imageLink": "images/the-tin-drum.jpg",
@@ -481,6 +523,7 @@
     "genre": "Drama"
   },
   {
+    "id": 42,
     "author": "João Guimarães Rosa",
     "country": "Brazil",
     "imageLink": "images/the-devil-to-pay-in-the-backlands.jpg",
@@ -492,8 +535,8 @@
     "price": 10.2,
     "genre": "Fiction"
   },
-
   {
+    "id": 43,
     "author": "Knut Hamsun",
     "country": "Norway",
     "imageLink": "images/hunger.jpg",
@@ -506,6 +549,7 @@
     "genre": "Drama"
   },
   {
+    "id": 44,
     "author": "Ernest Hemingway",
     "country": "United States",
     "imageLink": "images/the-old-man-and-the-sea.jpg",
@@ -518,6 +562,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 45,
     "author": "Homer",
     "country": "Greece",
     "imageLink": "images/the-iliad-of-homer.jpg",
@@ -530,6 +575,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 46,
     "author": "Homer",
     "country": "Greece",
     "imageLink": "images/the-odyssey-of-homer.jpg",
@@ -542,6 +588,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 47,
     "author": "Henrik Ibsen",
     "country": "Norway",
     "imageLink": "images/a-Dolls-house.jpg",
@@ -554,8 +601,9 @@
     "genre": "Drama"
   },
   {
+    "id": 48,
     "author": "James Joyce",
-    "country": "Irish Free State",
+    "country": "Ireland",
     "imageLink": "images/ulysses.jpg",
     "language": "English",
     "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
@@ -566,6 +614,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 49,
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
     "imageLink": "images/stories-of-franz-kafka.jpg",
@@ -578,6 +627,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 50,
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
     "imageLink": "images/the-trial.jpg",
@@ -590,6 +640,7 @@
     "genre": "Surrealism"
   },
   {
+    "id": 51,
     "author": "Franz Kafka",
     "country": "Czechoslovakia",
     "imageLink": "images/the-castle.jpg",
@@ -601,7 +652,9 @@
     "price": 10.2,
     "genre": "Fiction"
   },
+
   {
+    "id": 52,
     "author": "Kālidāsa",
     "country": "India",
     "imageLink": "images/the-recognition-of-shakuntala.jpg",
@@ -614,6 +667,7 @@
     "genre": "Drama"
   },
   {
+    "id": 53,
     "author": "Yasunari Kawabata",
     "country": "Japan",
     "imageLink": "images/the-sound-of-the-mountain.jpg",
@@ -625,8 +679,8 @@
     "price": 11.2,
     "genre": "Fiction"
   },
-
   {
+    "id": 54,
     "author": "Nikos Kazantzakis",
     "country": "Greece",
     "imageLink": "images/zorba-the-greek.jpg",
@@ -639,6 +693,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 55,
     "author": "D. H. Lawrence",
     "country": "United Kingdom",
     "imageLink": "images/sons-and-lovers.jpg",
@@ -651,6 +706,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 56,
     "author": "Halldór Laxness",
     "country": "Iceland",
     "imageLink": "images/independent-people.jpg",
@@ -663,6 +719,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 57,
     "author": "Giacomo Leopardi",
     "country": "Italy",
     "imageLink": "images/poems-giacomo-leopardi.jpg",
@@ -675,6 +732,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 58,
     "author": "Doris Lessing",
     "country": "United Kingdom",
     "imageLink": "images/the-golden-notebook.jpg",
@@ -687,6 +745,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 59,
     "author": "Astrid Lindgren",
     "country": "Sweden",
     "imageLink": "images/pippi-longstocking.jpg",
@@ -699,6 +758,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 60,
     "author": "Lu Xun",
     "country": "China",
     "imageLink": "images/diary-of-a-madman.jpg",
@@ -711,6 +771,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 61,
     "author": "Naguib Mahfouz",
     "country": "Egypt",
     "imageLink": "images/children-of-gebelawi.jpg",
@@ -723,6 +784,7 @@
     "genre": "Drama"
   },
   {
+    "id": 62,
     "author": "Thomas Mann",
     "country": "Germany",
     "imageLink": "images/buddenbrooks.jpg",
@@ -735,6 +797,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 63,
     "author": "Thomas Mann",
     "country": "Germany",
     "imageLink": "images/the-magic-mountain.jpg",
@@ -747,6 +810,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 64,
     "author": "Herman Melville",
     "country": "United States",
     "imageLink": "images/moby-dick.jpg",
@@ -759,6 +823,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 65,
     "author": "Michel de Montaigne",
     "country": "France",
     "imageLink": "images/essais.jpg",
@@ -771,6 +836,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 66,
     "author": "Elsa Morante",
     "country": "Italy",
     "imageLink": "images/history.jpg",
@@ -782,7 +848,9 @@
     "price": 12,
     "genre": "Fiction"
   },
+
   {
+    "id": 67,
     "author": "Toni Morrison",
     "country": "United States",
     "imageLink": "images/beloved.jpg",
@@ -794,8 +862,8 @@
     "price": 13,
     "genre": "Drama"
   },
-
   {
+    "id": 68,
     "author": "Murasaki Shikibu",
     "country": "Japan",
     "imageLink": "images/the-tale-of-genji.jpg",
@@ -808,6 +876,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 69,
     "author": "Robert Musil",
     "country": "Austria",
     "imageLink": "images/the-man-without-qualities.jpg",
@@ -820,6 +889,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 70,
     "author": "Vladimir Nabokov",
     "country": "Russia/United States",
     "imageLink": "images/lolita.jpg",
@@ -832,6 +902,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 71,
     "author": "George Orwell",
     "country": "United Kingdom",
     "imageLink": "images/nineteen-eighty-four.jpg",
@@ -844,6 +915,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 72,
     "author": "Ovid",
     "country": "Roman Empire",
     "imageLink": "images/the-metamorphoses-of-ovid.jpg",
@@ -856,6 +928,7 @@
     "genre": "Mythology"
   },
   {
+    "id": 73,
     "author": "Fernando Pessoa",
     "country": "Portugal",
     "imageLink": "images/the-book-of-disquiet.jpg",
@@ -868,6 +941,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 74,
     "author": "Edgar Allan Poe",
     "country": "United States",
     "imageLink": "images/tales-and-poems-of-edgar-allan-poe.jpg",
@@ -880,6 +954,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 75,
     "author": "Marcel Proust",
     "country": "France",
     "imageLink": "images/a-la-recherche-du-temps-perdu.jpg",
@@ -892,6 +967,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 76,
     "author": "François Rabelais",
     "country": "France",
     "imageLink": "images/gargantua-and-pantagruel.jpg",
@@ -904,6 +980,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 77,
     "author": "Juan Rulfo",
     "country": "Mexico",
     "imageLink": "images/pedro-paramo.jpg",
@@ -916,6 +993,7 @@
     "genre": "Drama"
   },
   {
+    "id": 78,
     "author": "Rumi",
     "country": "Sultanate of Rum",
     "imageLink": "images/the-masnavi.jpg",
@@ -928,6 +1006,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 79,
     "author": "Salman Rushdie",
     "country": "United Kingdom, India",
     "imageLink": "images/midnights-children.jpg",
@@ -940,6 +1019,7 @@
     "genre": "Drama"
   },
   {
+    "id": 80,
     "author": "Saadi",
     "country": "Persia, Persian Empire",
     "imageLink": "images/bostan.jpg",
@@ -951,8 +1031,8 @@
     "price": 8,
     "genre": "Poetry"
   },
-
   {
+    "id": 81,
     "author": "Tayeb Salih",
     "country": "Sudan",
     "imageLink": "images/season-of-migration-to-the-north.jpg",
@@ -965,6 +1045,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 82,
     "author": "José Saramago",
     "country": "Portugal",
     "imageLink": "images/blindness.jpg",
@@ -977,6 +1058,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 83,
     "author": "William Shakespeare",
     "country": "England",
     "imageLink": "images/hamlet.jpg",
@@ -989,6 +1071,7 @@
     "genre": "Tragedy"
   },
   {
+    "id": 84,
     "author": "William Shakespeare",
     "country": "England",
     "imageLink": "images/king-lear.jpg",
@@ -1001,6 +1084,7 @@
     "genre": "Tragedy"
   },
   {
+    "id": 85,
     "author": "William Shakespeare",
     "country": "England",
     "imageLink": "images/othello.jpg",
@@ -1013,6 +1097,7 @@
     "genre": "Tragedy"
   },
   {
+    "id": 86,
     "author": "Sophocles",
     "country": "Greece",
     "imageLink": "images/oedipus-the-king.jpg",
@@ -1025,6 +1110,7 @@
     "genre": "Tragedy"
   },
   {
+    "id": 87,
     "author": "Stendhal",
     "country": "France",
     "imageLink": "images/le-rouge-et-le-noir.jpg",
@@ -1037,6 +1123,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 88,
     "author": "Laurence Sterne",
     "country": "England",
     "imageLink": "images/the-life-and-opinions-of-tristram-shandy.jpg",
@@ -1049,6 +1136,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 89,
     "author": "Italo Svevo",
     "country": "Italy",
     "imageLink": "images/confessions-of-zeno.jpg",
@@ -1061,6 +1149,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 90,
     "author": "Jonathan Swift",
     "country": "Ireland",
     "imageLink": "images/gullivers-travels.jpg",
@@ -1073,6 +1162,7 @@
     "genre": "Non-Fiction"
   },
   {
+    "id": 91,
     "author": "Leo Tolstoy",
     "country": "Russia",
     "imageLink": "images/war-and-peace.jpg",
@@ -1085,6 +1175,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 92,
     "author": "Leo Tolstoy",
     "country": "Russia",
     "imageLink": "images/anna-karenina.jpg",
@@ -1097,6 +1188,7 @@
     "genre": "Romance"
   },
   {
+    "id": 93,
     "author": "Leo Tolstoy",
     "country": "Russia",
     "imageLink": "images/the-death-of-ivan-ilyich.jpg",
@@ -1108,8 +1200,8 @@
     "price": 10,
     "genre": "Fiction"
   },
-
   {
+    "id": 94,
     "author": "Mark Twain",
     "country": "United States",
     "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
@@ -1122,6 +1214,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 95,
     "author": "Valmiki",
     "country": "India",
     "imageLink": "images/ramayana.jpg",
@@ -1134,6 +1227,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 96,
     "author": "Virgil",
     "country": "Roman Empire",
     "imageLink": "images/the-aeneid.jpg",
@@ -1146,6 +1240,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 97,
     "author": "Vyasa",
     "country": "India",
     "imageLink": "images/the-mahab-harata.jpg",
@@ -1158,6 +1253,7 @@
     "genre": "Adventure"
   },
   {
+    "id": 98,
     "author": "Walt Whitman",
     "country": "United States",
     "imageLink": "images/leaves-of-grass.jpg",
@@ -1170,6 +1266,7 @@
     "genre": "Poetry"
   },
   {
+    "id": 99,
     "author": "Virginia Woolf",
     "country": "United Kingdom",
     "imageLink": "images/mrs-dalloway.jpg",
@@ -1182,6 +1279,7 @@
     "genre": "Fiction"
   },
   {
+    "id": 100,
     "author": "Virginia Woolf",
     "country": "United Kingdom",
     "imageLink": "images/to-the-lighthouse.jpg",
@@ -1194,8 +1292,9 @@
     "genre": "Drama"
   },
   {
+    "id": 101,
     "author": "Marguerite Yourcenar",
-    "country": "France/Belgium",
+    "country": "France",
     "imageLink": "images/memoirs-of-hadrian.jpg",
     "language": "French",
     "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian",
