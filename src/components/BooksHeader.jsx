@@ -1,9 +1,10 @@
-export default function BooksHeader() {
+// eslint-disable-next-line react/prop-types
+export default function BooksHeader({ changeSort }) {
   return (
     <div id="books-header">
       <h1>Books</h1>
       <div>
-        <select name="sort" id="sort">
+        <select name="sort" id="sort" onChange={changeSort}>
           <option value="byFeatured">Featured</option>
           <option value="byPriceLow">Price: Low to High</option>
           <option value="byPriceHigh">Price: High to Low</option>

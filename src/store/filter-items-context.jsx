@@ -14,9 +14,11 @@ export default function FilterContextProvider({ children }) {
   const [selectedBooks, setSelectedBooks] = useState(books);
   const [selectedGenre, setSelectedGenre] = useState([]);
 
+  // NOTE: Hook za selektiran genre
   useEffect(() => {
     handleSelectedBooks();
   }, [selectedGenre]);
+
   function handleSelectedBooks() {
     if (selectedGenre.length > 0) {
       let tempBooks = selectedGenre.map((bookGenre) => {
@@ -24,7 +26,7 @@ export default function FilterContextProvider({ children }) {
         return temp;
       });
       setSelectedBooks(tempBooks.flat());
-    }
+    } else setSelectedBooks(books);
   }
 
   function handleGenreChange(genre) {
