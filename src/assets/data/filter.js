@@ -47,7 +47,7 @@ const filter = {
     "United Kingdom",
     "United States",
   ],
-  price: ["0-5", "5-10", "10-15"],
+  price: ["0-10", "10-15"],
   genre: [
     "Fiction",
     "Non-Fiction",

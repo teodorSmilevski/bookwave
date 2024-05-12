@@ -1,6 +1,14 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-// eslint-disable-next-line react/prop-types
-export default function ProductCard({ title, author, img, genre }) {
+export default function ProductCard({
+  title,
+  author,
+  img,
+  genre,
+  price,
+  country,
+  language,
+}) {
   return (
     <div className="home-card">
       <div>
@@ -15,14 +23,18 @@ export default function ProductCard({ title, author, img, genre }) {
           <strong>
             <p>{author}</p>
           </strong>
-          <p>{genre}</p>
+          <p>
+            {genre} ${price}
+          </p>
+          <p>
+            C:{country} | L:{language}
+          </p>
         </div>
       </div>
 
-      <div id="hc-cart">
-        {/* TODO: ADD TO CART */}
+      {/* <div id="hc-cart">
         <p>Add to cart</p>
-      </div>
+      </div> */}
     </div>
   );
 }
