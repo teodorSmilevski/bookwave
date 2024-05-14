@@ -17,7 +17,6 @@ export default function Filter() {
 
       <SelectFilter name="Price" filterName="price" />
       <SelectFilter name="Language" filterName="language" />
-      <SelectFilter name="Country" filterName="country" />
     </div>
   );
 }

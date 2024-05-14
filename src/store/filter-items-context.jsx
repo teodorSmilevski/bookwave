@@ -11,12 +11,14 @@ export const FilterContext = createContext({
 // eslint-disable-next-line react/prop-types
 export default function FilterContextProvider({ children }) {
   const [selectedBooks, setSelectedBooks] = useState(books);
+  const [filteredBooks, setFilteredBooks] = useState(selectedBooks);
   const [selectedGenre, setSelectedGenre] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState({
     Price: "",
     Language: "",
     Country: "",
   });
+  const [selected, setSelected] = useState([]);
   const [sorted, setSorted] = useState("byFeatured");
   //  TODO: FIX STATE - AKO E BOOKS GI ODBIRA SITE I KO KE SE IZBERI I GENRE I PRICE SE MESHA
   // TODO: NAJDI RESENIE ZA ZAEDNICKO BARATANJE
@@ -24,8 +26,12 @@ export default function FilterContextProvider({ children }) {
     handleSelectedGenre();
   }, [selectedGenre]);
   useEffect(() => {
-    handleSelectedFilter();
-  }, [selectedFilter]);
+    handleSelectedFilter(
+      selectedFilter.Price,
+      selectedFilter.Country,
+      selectedFilter.Language
+    );
+  }, [selectedFilter, selectedBooks]);
   function handleSelectedGenre() {
     if (selectedGenre.length > 0) {
       let tempBooks = selectedGenre.map((bookGenre) => {
@@ -34,7 +40,8 @@ export default function FilterContextProvider({ children }) {
       });
       setSelectedBooks(tempBooks.flat());
     } else {
-      setSelectedBooks(books); // FIXME: ke se izmesti dr state
+      setSelectedBooks(books);
+      // TODO: se mesti i dr state
     }
   }
 
@@ -53,29 +60,32 @@ export default function FilterContextProvider({ children }) {
   function handleSelectChange(item, selectorName) {
     setSelectedFilter({ ...selectedFilter, [selectorName]: item });
   }
-  function handleSelectedFilter() {
-    if (selectedFilter.Price.length > 0) {
-      let tempBooks = [selectedFilter.Price].map((price) => {
+  function handleSelectedFilter(price, language) {
+    // FIXME: ERRORI PUKAT BAJO WAWA
+    let tempPrice = [],
+      tempLanguage = [],
+      data = [];
+    price.length > 0 &&
+      (tempPrice = [price].map((price) => {
         let [min, max] = price === "0-10" ? [0, 10] : [10, 15];
-        let temp = books.filter(
+        let temp = selectedBooks.filter(
           (book) => book.price >= min && book.price <= max
         );
-        console.log(temp);
         return temp;
-      });
-      setSelectedBooks(tempBooks.flat());
-    }
-    if (selectedFilter.Country.length > 0) {
-      let tempBooks = [selectedFilter.Country].map((country) => {
-        let temp = books.filter((book) => book.country === country);
+      }));
+
+    language.length > 0 &&
+      (tempLanguage = [language].map((language) => {
+        let temp = selectedBooks.filter((book) => book.language === language);
         return temp;
-      });
-      console.log(tempBooks);
-      setSelectedBooks(tempBooks.flat());
-    }
-    if (selectedFilter.Language.length > 0) {
-      console.log(selectedFilter.Language);
-    }
+      }));
+
+    const filteredArray = tempPrice.filter((value) =>
+      tempLanguage.includes(value)
+    );
+    setSelected(filteredArray);
+    console.log(selected);
+    setFilteredBooks(selectedBooks);
   }
 
   selectedBooks.sort((a, b) => {
@@ -90,7 +100,7 @@ export default function FilterContextProvider({ children }) {
   }
 
   const ctxValue = {
-    books: selectedBooks,
+    books: filteredBooks,
     handleFilterGenre: handleGenreChange,
     handleSort: handleSort,
     handleSelect: handleSelectChange,

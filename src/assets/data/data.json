@@ -121,7 +121,7 @@
     "author": "Samuel Beckett",
     "country": "Ireland",
     "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
-    "language": "French, English",
+    "language": "English",
     "link": "https://en.wikipedia.org/wiki/Molloy_(novel)",
     "pages": 256,
     "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
@@ -171,7 +171,7 @@
   {
     "id": 14,
     "author": "Albert Camus",
-    "country": "Algeria, French Empire",
+    "country": "Algeria",
     "imageLink": "images/l-etranger.jpg",
     "language": "French",
     "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)",
@@ -185,7 +185,7 @@
   {
     "id": 16,
     "author": "Paul Celan",
-    "country": "Romania, France",
+    "country": "Romania",
     "imageLink": "images/poems-paul-celan.jpg",
     "language": "German",
     "link": "\n",
@@ -486,7 +486,7 @@
   {
     "id": 39,
     "author": "Johann Wolfgang von Goethe",
-    "country": "Saxe-Weimar",
+    "country": "Germany",
     "imageLink": "images/faust.jpg",
     "language": "German",
     "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
@@ -891,7 +891,7 @@
   {
     "id": 70,
     "author": "Vladimir Nabokov",
-    "country": "Russia/United States",
+    "country": "Russia",
     "imageLink": "images/lolita.jpg",
     "language": "English",
     "link": "https://en.wikipedia.org/wiki/Lolita\n",
@@ -1021,7 +1021,7 @@
   {
     "id": 80,
     "author": "Saadi",
-    "country": "Persia, Persian Empire",
+    "country": "Persia",
     "imageLink": "images/bostan.jpg",
     "language": "Persian",
     "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
