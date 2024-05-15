@@ -25,11 +25,12 @@ export default function Bookstore() {
               img={book.imageLink}
               country={book.country}
               language={book.language}
+              id={book.id}
             />
           ))}
         </div>
       </div>
-      <div>
+      <div className="pagination">
         {Array.from({ length: totalPages }, (_, index) => (
           <button
             key={index}

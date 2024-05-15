@@ -61,6 +61,7 @@ export default function FilterContextProvider({ children }) {
       return result;
     });
 
+    setCurrentPage(1);
     setFilteredBooks(tempBooks);
   }
 

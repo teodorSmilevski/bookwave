@@ -8,15 +8,16 @@ export default function ProductCard({
   price,
   country,
   language,
+  id,
 }) {
   return (
     <div className="home-card">
       <div>
-        <Link>
-          <img src={img} alt="book img" />
+        <Link to={`/bookstore/${id}`}>
+          <img src={img} alt={title} />
         </Link>
         <div id="title-author">
-          <Link>
+          <Link to={`/bookstore/${id}`}>
             <h1>{title}</h1>
           </Link>
 
