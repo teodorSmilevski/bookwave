@@ -1,20 +1,12 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-export default function ProductCard({
-  title,
-  author,
-  img,
-  genre,
-  price,
-  country,
-  language,
-  id,
-}) {
+import AddToCartBtn from "./AddToCartBtn";
+export default function ProductCard({ title, author, img, genre, price, id }) {
   return (
     <div className="home-card">
       <div>
         <Link to={`/bookstore/${id}`}>
-          <img src={img} alt={title} />
+          <img src={`/${img}`} alt={title} />
         </Link>
         <div id="title-author">
           <Link to={`/bookstore/${id}`}>
@@ -27,15 +19,10 @@ export default function ProductCard({
           <p>
             {genre} ${price}
           </p>
-          <p>
-            C:{country} | L:{language}
-          </p>
         </div>
       </div>
 
-      {/* <div id="hc-cart">
-        <p>Add to cart</p>
-      </div> */}
+      <AddToCartBtn />
     </div>
   );
 }

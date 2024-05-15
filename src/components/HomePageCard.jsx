@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import AddToCartBtn from "./AddToCartBtn";
 export default function HomePageCard({ title, author, img }) {
   return (
     <div className="home-card">
@@ -17,10 +18,7 @@ export default function HomePageCard({ title, author, img }) {
         </div>
       </div>
 
-      <div id="hc-cart">
-        {/* TODO: ADD TO CART */}
-        <p>Add to cart</p>
-      </div>
+      <AddToCartBtn />
     </div>
   );
 }
