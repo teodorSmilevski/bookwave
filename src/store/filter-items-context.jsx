@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { createContext, useState, useEffect } from "react";
 import books from "../assets/data/data.json";
 
@@ -6,29 +7,33 @@ export const FilterContext = createContext({
   handleFilterGenre: () => {},
   handleSelect: () => {},
   handleSort: () => {},
+  handleItemsPerPage: () => {},
+  handlePageChange: () => {},
 });
 
 // eslint-disable-next-line react/prop-types
 export default function FilterContextProvider({ children }) {
   const [filteredBooks, setFilteredBooks] = useState(books);
-  const [selectedGenre, setSelectedGenre] = useState([]);
   const [selectedFilter, setSelectedFilter] = useState({
+    Genre: [],
     Price: "",
     Language: "",
   });
   const [sorted, setSorted] = useState("byFeatured");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(24);
 
   useEffect(() => {
     handleFilters();
-  }, [selectedGenre, selectedFilter, sorted]);
+  }, [selectedFilter, sorted]);
 
   function handleFilters() {
     let tempBooks = [...books];
 
     // Filter by genre
-    if (selectedGenre.length > 0) {
+    if (selectedFilter.Genre.length > 0) {
       tempBooks = tempBooks.filter((book) =>
-        selectedGenre.includes(book.genre)
+        selectedFilter.Genre.includes(book.genre)
       );
     }
 
@@ -60,11 +65,12 @@ export default function FilterContextProvider({ children }) {
   }
 
   function handleGenreChange(genre) {
-    setSelectedGenre((oldValue) =>
-      oldValue.includes(genre)
-        ? oldValue.filter((g) => g !== genre)
-        : [...oldValue, genre]
-    );
+    setSelectedFilter((oldFilter) => ({
+      ...oldFilter,
+      Genre: oldFilter.Genre.includes(genre)
+        ? oldFilter.Genre.filter((g) => g !== genre)
+        : [...oldFilter.Genre, genre],
+    }));
   }
 
   function handleSelectChange(item, selectorName) {
@@ -78,11 +84,29 @@ export default function FilterContextProvider({ children }) {
     setSorted(e.target.value);
   }
 
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = filteredBooks.slice(indexOfFirstItem, indexOfLastItem);
+
+  const totalPages = Math.ceil(filteredBooks.length / itemsPerPage);
+
+  function handlePageChange(page) {
+    setCurrentPage(page);
+  }
+  function handleItemsPerPage(items) {
+    setItemsPerPage(Number(items));
+    setCurrentPage(1);
+  }
   const ctxValue = {
-    books: filteredBooks,
+    books: currentItems,
     handleFilterGenre: handleGenreChange,
-    handleSort: handleSort,
+    handleSort,
     handleSelect: handleSelectChange,
+    handleItemsPerPage,
+    handlePageChange,
+    currentPage,
+    itemsPerPage,
+    totalPages,
   };
 
   return (

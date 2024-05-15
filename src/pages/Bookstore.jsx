@@ -6,7 +6,8 @@ import Filter from "../components/Filter";
 import BooksHeader from "../components/BooksHeader";
 
 export default function Bookstore() {
-  const { books } = useContext(FilterContext);
+  const { books, currentPage, totalPages, handlePageChange } =
+    useContext(FilterContext);
 
   return (
     <section id="bookstore">
@@ -14,19 +15,30 @@ export default function Bookstore() {
       <div id="books-wrapper">
         <Filter />
         <div id="books">
-          {books.map((item) => (
+          {books.map((book) => (
             <ProductCard
-              key={item.id}
-              title={item.title}
-              author={item.author}
-              genre={item.genre}
-              price={item.price}
-              img={item.imageLink}
-              country={item.country}
-              language={item.language}
+              key={book.id}
+              title={book.title}
+              author={book.author}
+              genre={book.genre}
+              price={book.price}
+              img={book.imageLink}
+              country={book.country}
+              language={book.language}
             />
           ))}
         </div>
+      </div>
+      <div>
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index}
+            onClick={() => handlePageChange(index + 1)}
+            disabled={currentPage === index + 1}
+          >
+            {index + 1}
+          </button>
+        ))}
       </div>
     </section>
   );
