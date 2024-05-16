@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import FilterContextProvider from "./store/filter-items-context";
-
+import CartContextProvider from "./store/shopping-cart-context";
 import "./App.css";
 import NavBar from "./components/NavBar";
 // TODO: SMENI GI VO DRUG FAJL INDEX.JS OVIE SITE
@@ -13,7 +13,7 @@ import Product from "./components/Product";
 // import {Categories, Comics, Bestsellers, HomePage} from "./pages"
 function App() {
   return (
-    <>
+    <CartContextProvider>
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -33,7 +33,7 @@ function App() {
         <Route path="/comics" element={<Comics />} />
       </Routes>
       <Footer />
-    </>
+    </CartContextProvider>
   );
 }
 

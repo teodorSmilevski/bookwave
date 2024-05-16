@@ -38,7 +38,10 @@ nav a {
   position: absolute;
   left: 2rem;
 }
-
+.bx-cart:hover {
+  color: var(--dark-red);
+  cursor: pointer;
+}
 @media (max-width: 960px) {
   nav > div {
     width: 100%;

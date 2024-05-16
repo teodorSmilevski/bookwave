@@ -165,6 +165,7 @@
 .home-card img {
   width: 13rem;
   height: 100%;
+  box-shadow: 0px 0px 15px #585858;
 }
 #hc-cart {
   height: 2rem;
