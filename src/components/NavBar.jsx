@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import { useState, useRef } from "react";
+import { useState, useRef, useContext } from "react";
+import { CartContext } from "../store/shopping-cart-context";
 import CartModal from "./CartModal";
 // import Login from "../pages/Login.jsx";
 import logo from "../assets/bookwave-logo.png";
@@ -8,7 +9,7 @@ import logo from "../assets/bookwave-logo.png";
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const modal = useRef();
-  // TODO: items to display from contextAPI (cartQuantity)
+  const { itemsQuantity } = useContext(CartContext);
 
   function handleMenuClick() {
     setIsMenuOpen((oldState) => !oldState);
@@ -53,6 +54,7 @@ export default function NavBar() {
           <div className="nav-search-cart">
             <i className="bx bx-search bx-sm"></i>
             <i className="bx bx-cart bx-sm" onClick={handleOpenCart}></i>
+            {itemsQuantity !== 0 && itemsQuantity}
           </div>
         </div>
       </nav>

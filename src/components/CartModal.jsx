@@ -18,7 +18,11 @@ const CartModal = forwardRef(function Modal({ title }, ref) {
           <h1>{title}</h1>
           <Cart />
           <form method="dialog">
-            <button>Back</button>
+            <button className="cart-go-back">
+              {" "}
+              <i className="bx bx-chevrons-left"></i>
+              <strong>GO BACK</strong>
+            </button>
           </form>
         </div>
         <div className="cart-checkout">

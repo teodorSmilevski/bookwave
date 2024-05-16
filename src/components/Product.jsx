@@ -29,7 +29,7 @@ export default function Product() {
   );
   relatedBooks = shuffleRelatedBooks(relatedBooks);
   relatedBooks = relatedBooks.slice(0, 4);
-  console.log(relatedBooks);
+
   return (
     <section className="product">
       <div className="product-go-back">
@@ -72,7 +72,14 @@ export default function Product() {
             <h1>
               $<strong>{price} </strong>
             </h1>
-            <AddToCartBtn />
+            <AddToCartBtn
+              title={title}
+              author={author}
+              img={imageLink}
+              genre={genre}
+              price={price}
+              id={id}
+            />
           </div>
         </div>
       </div>

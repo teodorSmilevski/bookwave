@@ -22,7 +22,14 @@ export default function ProductCard({ title, author, img, genre, price, id }) {
         </div>
       </div>
 
-      <AddToCartBtn />
+      <AddToCartBtn
+        title={title}
+        author={author}
+        img={img}
+        genre={genre}
+        price={price}
+        id={id}
+      />
     </div>
   );
 }

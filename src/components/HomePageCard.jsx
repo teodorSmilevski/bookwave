@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import AddToCartBtn from "./AddToCartBtn";
-export default function HomePageCard({ title, author, img }) {
+export default function HomePageCard({ title, author, img, genre, price, id }) {
   return (
     <div className="home-card">
       <div>
@@ -18,13 +18,14 @@ export default function HomePageCard({ title, author, img }) {
         </div>
       </div>
 
-      <AddToCartBtn />
+      <AddToCartBtn
+        title={title}
+        author={author}
+        img={img}
+        genre={genre}
+        price={price}
+        id={id}
+      />
     </div>
   );
 }
-
-HomePageCard.propTypes = {
-  img: PropTypes.string,
-  title: PropTypes.string,
-  author: PropTypes.string,
-};
