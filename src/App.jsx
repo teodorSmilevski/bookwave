@@ -10,30 +10,33 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
+import ScrollToTop from "./components/ScrollToTop";
 // import {Categories, Comics, Bestsellers, HomePage} from "./pages"
 function App() {
   return (
-    <CartContextProvider>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
+    <>
+      <ScrollToTop />
+      <CartContextProvider>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route
+            path="/bookstore"
+            index
+            element={
+              <FilterContextProvider>
+                <Bookstore />{" "}
+              </FilterContextProvider>
+            }
+          />
+          <Route path="/bookstore/:id" element={<Product />} />
 
-        <Route
-          path="/bookstore"
-          index
-          element={
-            <FilterContextProvider>
-              <Bookstore />{" "}
-            </FilterContextProvider>
-          }
-        />
-        <Route path="/bookstore/:id" element={<Product />} />
-
-        <Route path="/about" element={<About />} />
-        <Route path="/comics" element={<Comics />} />
-      </Routes>
-      <Footer />
-    </CartContextProvider>
+          <Route path="/about" element={<About />} />
+          <Route path="/comics" element={<Comics />} />
+        </Routes>
+        <Footer />
+      </CartContextProvider>
+    </>
   );
 }
 

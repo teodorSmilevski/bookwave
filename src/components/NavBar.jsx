@@ -9,8 +9,8 @@ import logo from "../assets/bookwave-logo.png";
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const modal = useRef();
-  const { itemsQuantity } = useContext(CartContext);
-
+  const { cartItems } = useContext(CartContext);
+  const itemsQuantity = cartItems.length;
   function handleMenuClick() {
     setIsMenuOpen((oldState) => !oldState);
   }

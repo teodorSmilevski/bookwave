@@ -5,11 +5,11 @@ export default function HomePageCard({ title, author, img, genre, price, id }) {
   return (
     <div className="home-card">
       <div>
-        <Link>
+        <Link to={`/bookstore/${id}`}>
           <img src={img} alt="book img" />
         </Link>
         <div id="title-author">
-          <Link>
+          <Link to={`/bookstore/${id}`}>
             <h1>{title}</h1>
           </Link>
           <strong>

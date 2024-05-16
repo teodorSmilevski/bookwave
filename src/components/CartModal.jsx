@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useRef, forwardRef, useImperativeHandle } from "react";
 import Cart from "./Cart";
+import CartCheckout from "./CartCheckout";
 import "./CartModal.css";
 const CartModal = forwardRef(function Modal({ title }, ref) {
   const dialog = useRef();
@@ -26,7 +27,7 @@ const CartModal = forwardRef(function Modal({ title }, ref) {
           </form>
         </div>
         <div className="cart-checkout">
-          <h2>checkout baba</h2>
+          <CartCheckout />
         </div>
       </div>
     </dialog>

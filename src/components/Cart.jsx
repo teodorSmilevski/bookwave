@@ -2,7 +2,8 @@ import { useContext } from "react";
 import { CartContext } from "../store/shopping-cart-context";
 
 export default function Cart() {
-  const { cartItems, handleRemoveItem } = useContext(CartContext);
+  const { cartItems, handleRemoveItem, handleQuantityClick } =
+    useContext(CartContext);
   return (
     <div id="shopping-cart">
       {cartItems.map((item) => (
@@ -14,11 +15,19 @@ export default function Cart() {
             <br />
           </div>
           <div className="cart-item-quantity">
-            <p>quantity</p>
+            <i
+              className="bx bxs-minus-circle bx-sm"
+              onClick={() => handleQuantityClick(item.id, "-")}
+            ></i>{" "}
+            <p>{item.quantity}</p>
+            <i
+              className="bx bxs-plus-circle bx-sm"
+              onClick={() => handleQuantityClick(item.id, "+")}
+            ></i>
           </div>
 
           <div className="cart-item-price">
-            <p>${item.price}</p>
+            <p>${item.quantity > 1 ? item.updatedPrice : item.price}</p>
           </div>
           <i
             className="bx bx-trash cart-remove"

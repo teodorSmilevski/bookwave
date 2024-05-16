@@ -4,29 +4,55 @@ export const CartContext = createContext({
   cartItems: [],
   handleAddToCart: () => {},
   handleRemoveItem: () => {},
-  itemsQuantity: 0,
+  handleQuantityClick: () => {},
 });
 
 // eslint-disable-next-line react/prop-types
 export default function CartContextProvider({ children }) {
   const [cartItems, setCartItems] = useState([]);
-  const [cartItemsQuantity, setCartItemsQuantity] = useState([]);
 
-  const itemsQuantity = cartItems.length;
-
-  //   TODO: AKO SE DODAJ VEKE POSTOECKA KNIGA DA SE UPDATE QUANTITY A NE DA SE DODAJ CELA
   function handleAddToCart(item) {
-    if (cartItems.includes(item)) {
-      let index = cartItems.indexOf(item);
-      let tempQuantity = [...cartItemsQuantity];
-      tempQuantity[index]++;
-      setCartItemsQuantity(tempQuantity);
+    const itemIndex = cartItems.findIndex((cartItem) => cartItem.id == item.id);
+
+    if (itemIndex > -1) {
+      const updatedCart = cartItems.map((cartItem) =>
+        cartItem.id == item.id
+          ? {
+              ...cartItem,
+              quantity: cartItem.quantity + 1,
+              updatedPrice: Number.parseFloat(
+                item.price * (cartItem.quantity + 1)
+              ).toFixed(1),
+            }
+          : cartItem
+      );
+      setCartItems(updatedCart);
     } else {
-      setCartItems((oldCart) => [...oldCart, item]);
-      setCartItemsQuantity((oldQ) => [...oldQ, 1]);
+      setCartItems([...cartItems, { ...item, quantity: 1 }]);
     }
-    console.log(cartItems);
-    console.log(cartItemsQuantity);
+  }
+
+  function handleQuantityClick(id, equation) {
+    setCartItems((oldItems) =>
+      oldItems.map((item) => {
+        if (id == item.id) {
+          const newQuantity =
+            equation === "+"
+              ? item.quantity + 1
+              : item.quantity > 1
+              ? item.quantity - 1
+              : 1;
+          return {
+            ...item,
+            quantity: newQuantity,
+            updatedPrice: Number.parseFloat(item.price * newQuantity).toFixed(
+              1
+            ),
+          };
+        }
+        return item;
+      })
+    );
   }
 
   function handleRemoveItem(item) {
@@ -40,7 +66,7 @@ export default function CartContextProvider({ children }) {
     cartItems: cartItems,
     handleAddToCart,
     handleRemoveItem,
-    itemsQuantity,
+    handleQuantityClick,
   };
   return (
     <CartContext.Provider value={ctxValue}>{children}</CartContext.Provider>
