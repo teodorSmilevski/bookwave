@@ -16,12 +16,12 @@ footer {
   width: 300px;
 }
 .footer hr {
-  width: 50%;
+  width: 700px;
 }
 .footer-links {
   width: 30%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .footer-links a {
   color: white;
@@ -31,10 +31,10 @@ footer {
 
 @media (max-width: 900px) {
   .footer hr {
-    width: 80%;
+    width: 350px;
   }
   .footer-links {
-    width: 80%;
+    width: 300px;
   }
   .footer img {
     width: 270px;

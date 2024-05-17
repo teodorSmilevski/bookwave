@@ -25,7 +25,7 @@ export default function NavBar() {
     <>
       <CartModal ref={modal} title="Shopping Cart" />
       <nav>
-        <div>
+        <div className="nav-wrapper container">
           <Link to="/" className="logo">
             <img src={logo} alt="logo" />
           </Link>

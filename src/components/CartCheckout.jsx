@@ -2,13 +2,13 @@ import { useContext } from "react";
 import { CartContext } from "../store/shopping-cart-context";
 export default function CartCheckout() {
   const { cartItems } = useContext(CartContext);
-  let totalCost = 0;
-  //   FIXME: OVA
-  totalCost = cartItems.map((item) =>
-    item.updatedPrice
-      ? totalCost + Number(item.updatedPrice)
-      : totalCost + Number(item.price)
-  );
+
+  const totalCost = cartItems
+    .reduce((acc, item) => {
+      return acc + item.price * item.quantity;
+    }, 0)
+    .toFixed(1);
+
   return (
     <>
       <div className="cart-summary">

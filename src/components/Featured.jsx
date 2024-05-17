@@ -5,7 +5,7 @@ const featured = books.filter((book) => featuredById.includes(book.id));
 
 export default function Featured() {
   return (
-    <section className="new-arrivals">
+    <section className="new-arrivals container">
       <div className="na-wrapper">
         <div className="na-heading">
           <h1>FEATURED BOOKS</h1>

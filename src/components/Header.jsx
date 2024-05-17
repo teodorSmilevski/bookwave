@@ -3,7 +3,7 @@ import bookImg from "../assets/header-img.png";
 export default function Header() {
   return (
     <section id="landing-page">
-      <div id="lp-div">
+      <div id="lp-div" className="container">
         <div className="lp-text">
           <h1>
             Dive through the <span>wave</span> of books

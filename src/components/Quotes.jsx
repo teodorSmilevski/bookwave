@@ -2,7 +2,7 @@ import quotes from "./quotesData";
 export default function Quotes() {
   const randNum = Math.floor(Math.random() * quotes.length);
   return (
-    <section className="quotes">
+    <section className="quotes container">
       <div>
         <h2>
           <q>{quotes[randNum].quote}</q>
