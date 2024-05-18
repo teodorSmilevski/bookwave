@@ -20,6 +20,10 @@
   gap: 1rem;
   padding: 0 1rem;
 }
+.lp-text a {
+  width: 11rem;
+}
+
 .lp-text h1 {
   font-size: 60px;
   font-weight: 400;
@@ -135,6 +139,9 @@
   background-color: transparent;
   color: #7d0a0a;
 }
+.na-heading a {
+  text-decoration: none;
+}
 .na-heading button:hover {
   background-color: #7d0a0a;
   color: white;
@@ -170,11 +177,14 @@
   height: 100%;
   box-shadow: 0px 0px 15px #585858;
 }
+.home-card img:hover {
+  box-shadow: 0px 0px 25px #585858;
+}
 #hc-cart {
   height: 2rem;
   color: #7d0a0a;
   font-weight: 500;
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,13 +374,33 @@
   .container {
     width: 100%;
   }
+  #comic-feature {
+    width: 380px;
+  }
   #comic-feature > div {
-    width: 300px;
-    height: 15vh;
+    width: 470px;
+    height: 20vh;
   }
   #cf-text {
     font-size: 10px;
     width: 85%;
+  }
+  #comic-feature a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  #comic-feature {
+    width: 320px;
+  }
+  #comic-feature > div {
+    width: 310px;
+    height: 20vh;
+  }
+  #cf-text {
+    font-size: 12px;
+    width: 90%;
   }
   #comic-feature a {
     font-size: 10px;

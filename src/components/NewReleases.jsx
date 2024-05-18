@@ -1,5 +1,5 @@
 import HomePageCard from "./HomePageCard";
-
+import { Link } from "react-router-dom";
 import books from "../assets/data/data.json";
 const [minItem, maxItem] = [
   books[books.length - 4].id,
@@ -16,7 +16,9 @@ export default function NewReleases() {
       <div className="na-wrapper ">
         <div className="na-heading">
           <h1>NEW ARRIVALS</h1>
-          <button>SEE ALL</button>
+          <Link to="/bookstore">
+            <button>SEE ALL</button>
+          </Link>
         </div>
         <div className="na-cards">
           {newReleases.map((item) => (

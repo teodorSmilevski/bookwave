@@ -10,7 +10,7 @@ export default function Bookstore() {
     useContext(FilterContext);
 
   return (
-    <section id="bookstore">
+    <section id="bookstore" className="container">
       <BooksHeader />
       <div id="books-wrapper">
         <Filter />

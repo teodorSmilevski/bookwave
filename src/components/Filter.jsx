@@ -6,17 +6,19 @@ export default function Filter() {
   return (
     <div id="filter">
       <h3>Filter</h3>
-
-      <div id="select-filter">
-        <div className="sf-wrapper">
-          {genres.map((genre) => (
-            <GenreCheckbox name={genre} key={genre} />
-          ))}
+      <div>
+        <div id="select-filter">
+          <div className="sf-wrapper">
+            {genres.map((genre) => (
+              <GenreCheckbox name={genre} key={genre} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <SelectFilter name="Price" filterName="price" />
+          <SelectFilter name="Language" filterName="language" />
         </div>
       </div>
-
-      <SelectFilter name="Price" filterName="price" />
-      <SelectFilter name="Language" filterName="language" />
     </div>
   );
 }

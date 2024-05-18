@@ -49,6 +49,7 @@ nav a {
   color: var(--dark-red);
   cursor: pointer;
 }
+
 /* xl */
 @media (max-width: 1536px) {
   .nav-wrapper {

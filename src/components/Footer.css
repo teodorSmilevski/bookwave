@@ -29,7 +29,7 @@ footer {
   text-transform: uppercase;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .footer hr {
     width: 350px;
   }
@@ -37,6 +37,31 @@ footer {
     width: 300px;
   }
   .footer img {
+    width: 230px;
+  }
+}
+@media (max-width: 475px) {
+  .footer hr {
+    width: 300px;
+  }
+  .footer-links {
     width: 270px;
+  }
+  .footer img {
+    width: 200px;
+  }
+}
+@media (max-width: 350px) {
+  .footer {
+    width: 290px;
+  }
+  .footer hr {
+    width: 250px;
+  }
+  .footer-links {
+    width: 270px;
+  }
+  .footer img {
+    width: 200px;
   }
 }

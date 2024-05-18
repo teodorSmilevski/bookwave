@@ -6,12 +6,14 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer container">
-        <img src={logoImg} alt="" />
+        <Link to="/">
+          <img src={logoImg} alt="" />
+        </Link>
         <hr />
         <div className="footer-links">
-          <Link>Bookstore</Link>
-          <Link>About</Link>
-          <Link>Comics</Link>
+          <Link to="/bookstore">Bookstore</Link>
+          <Link to="/about">About</Link>
+          <Link to="/comics">Comics</Link>
         </div>
         <div>
           <p>© 2024</p>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import HomePageCard from "./HomePageCard";
 import books from "../assets/data/data.json";
 const featuredById = [2, 30, 45, 69];
@@ -9,7 +10,9 @@ export default function Featured() {
       <div className="na-wrapper">
         <div className="na-heading">
           <h1>FEATURED BOOKS</h1>
-          <button>SEE ALL</button>
+          <Link to="/bookstore">
+            <button>SEE ALL</button>
+          </Link>
         </div>
         <div className="na-cards">
           {featured.map((item) => (

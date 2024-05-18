@@ -1,5 +1,5 @@
 import bookImg from "../assets/header-img.png";
-
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <section id="landing-page">
@@ -14,7 +14,10 @@ export default function Header() {
             insightful knowledge, or whimsical tales, we are here to help you
             discover your next favorite book. <span>Happy reading!</span>
           </p>
-          <button>Explore now </button>
+
+          <Link to="/bookstore">
+            <button>Explore now</button>
+          </Link>
         </div>
         <div className="lp-image">
           <img src={bookImg} alt="" />

@@ -3,33 +3,30 @@ import { Link } from "react-router-dom";
 import AddToCartBtn from "./AddToCartBtn";
 export default function ProductCard({ title, author, img, genre, price, id }) {
   return (
-    <div className="home-card">
-      <div>
+    <div className="item-card">
+      <Link to={`/bookstore/${id}`}>
+        <img src={`/${img}`} alt={title} />
+      </Link>
+      <div id="title-author">
         <Link to={`/bookstore/${id}`}>
-          <img src={`/${img}`} alt={title} />
+          <h1>{title}</h1>
         </Link>
-        <div id="title-author">
-          <Link to={`/bookstore/${id}`}>
-            <h1>{title}</h1>
-          </Link>
 
-          <strong>
-            <p>{author}</p>
-          </strong>
-          <p>
-            {genre} ${price}
-          </p>
-        </div>
+        <strong>
+          <p>{author}</p>
+        </strong>
       </div>
-
-      <AddToCartBtn
-        title={title}
-        author={author}
-        img={img}
-        genre={genre}
-        price={price}
-        id={id}
-      />
+      <h3>${price}</h3>
+      <div className="item-card-btn">
+        <AddToCartBtn
+          title={title}
+          author={author}
+          img={img}
+          genre={genre}
+          price={price}
+          id={id}
+        />
+      </div>
     </div>
   );
 }

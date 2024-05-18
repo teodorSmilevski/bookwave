@@ -1,11 +1,12 @@
 #bookstore {
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #books-header {
-  width: 75%;
+  width: 100%;
   padding: 1rem 0;
   display: flex;
   align-items: center;
@@ -22,14 +23,15 @@
   border-radius: 0.2rem;
 }
 #books-wrapper {
-  padding: 2rem 12.5%;
+  width: 100%;
+  padding: 2rem 0;
   display: grid;
   grid-template-columns: 20% 80%;
 }
 #books {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 3rem 0;
 }
 #filter {
   padding-left: 0.5rem;
@@ -62,6 +64,29 @@
   gap: 0.5rem;
 }
 
+.item-card {
+  padding: 0 1rem;
+  width: 13rem;
+  height: 27rem;
+  display: grid;
+  grid-template-rows: 18rem 4rem 1rem 4rem;
+  grid-gap: 0.1rem 0;
+}
+.item-card a {
+  color: black;
+  text-decoration: none;
+}
+.item-card img {
+  width: 13rem;
+  height: 98%;
+  box-shadow: 0px 0px 15px #585858;
+}
+.item-card img:hover {
+  box-shadow: 0px 0px 25px #585858;
+}
+.item-card-btn {
+  width: 100%;
+}
 /* NOTE: PRODUCT */
 .product {
   width: 100%;
@@ -129,4 +154,63 @@
 .product-related-books > div {
   display: flex;
   justify-content: space-between;
+}
+
+/* SECTION: */
+/* 2xl */
+@media (max-width: 1536px) {
+}
+
+/* xl */
+@media (max-width: 1280px) {
+}
+
+/* lg */
+@media (max-width: 1024px) {
+}
+
+/* md */
+@media (max-width: 768px) {
+  #books-wrapper {
+    width: 100%;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(5rem, auto);
+  }
+
+  #filter > div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #select-filter {
+    padding: 0.5rem 0;
+  }
+  #select-filter select {
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin-top: 0;
+    /* FIXME: */
+  }
+  #select-filter option {
+    padding: 1rem;
+  }
+  .sf-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  }
+  .sf-wrapper > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {
 }
