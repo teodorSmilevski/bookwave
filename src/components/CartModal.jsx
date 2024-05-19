@@ -13,7 +13,7 @@ const CartModal = forwardRef(function Modal({ title }, ref) {
   });
 
   return (
-    <dialog id="cart-modal" ref={dialog}>
+    <dialog id="cart-modal" className="container" ref={dialog}>
       <div className="cart-modal-wrapper">
         <div className="cart-products">
           <h1>{title}</h1>

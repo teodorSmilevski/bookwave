@@ -89,7 +89,6 @@
 }
 /* NOTE: PRODUCT */
 .product {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,14 +102,14 @@
   align-items: center;
 }
 .product-go-back {
-  width: 960px;
+  width: 1024px;
   display: flex;
   justify-content: start;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   padding: 1rem 0;
 }
 .product-wrapper {
-  width: 800px;
+  width: 768px;
   margin: auto;
   padding-top: 3rem;
   display: grid;
@@ -146,27 +145,33 @@
   color: #7d0a0a;
 }
 .product-related-books {
-  width: 960px;
+  width: 1024px;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 .product-related-books > div {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 /* SECTION: */
-/* 2xl */
-@media (max-width: 1536px) {
-}
-
-/* xl */
-@media (max-width: 1280px) {
-}
 
 /* lg */
 @media (max-width: 1024px) {
+  .product-go-back {
+    width: 768px;
+  }
+  .product-related-books {
+    width: 768px;
+  }
+  .product-related-books > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
 }
 
 /* md */
@@ -182,7 +187,7 @@
   #filter > div {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
   }
   #select-filter {
     padding: 0.5rem 0;
@@ -205,12 +210,64 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .product-go-back {
+    width: 640px;
+  }
+  .product-related-books {
+    width: 640px;
+  }
+  .product-wrapper {
+    width: 640px;
+  }
 }
 
 /* sm */
 @media (max-width: 640px) {
+  .product-content {
+    height: 100%;
+  }
+  .product-wrapper img {
+    justify-self: center;
+    align-self: center;
+  }
+  .product-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .product-go-back {
+    width: 475px;
+  }
+  .product-related-books {
+    width: 475px;
+  }
+  .product-wrapper {
+    width: 475px;
+  }
 }
 
 /* xs */
 @media (max-width: 475px) {
+  .product-go-back {
+    width: 310px;
+  }
+  .product-related-books {
+    width: 310px;
+  }
+  .product-wrapper {
+    width: 310px;
+    margin: 0;
+  }
+  .product-wrapper img {
+    width: 280px;
+    height: 420px;
+  }
+  .product-content {
+    padding: 0;
+  }
+  .product-content h1 {
+    font-size: 25px;
+  }
 }

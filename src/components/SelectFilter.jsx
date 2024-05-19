@@ -7,7 +7,10 @@ export default function SelectFilter({ name, filterName }) {
   const { handleSelect } = useContext(FilterContext);
   return (
     <div id="select-filter">
-      <label htmlFor={name}> {name}</label> <br />
+      <strong>
+        <label htmlFor={name}> {name}</label>
+      </strong>{" "}
+      <br />
       <select
         name={name}
         id={name}

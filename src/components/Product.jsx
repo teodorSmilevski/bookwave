@@ -31,7 +31,7 @@ export default function Product() {
   relatedBooks = relatedBooks.slice(0, 4);
 
   return (
-    <section className="product">
+    <section className="product container">
       <div className="product-go-back">
         <Link to="/bookstore">
           <i className="bx bx-chevrons-left"></i>GO BACK
@@ -83,7 +83,7 @@ export default function Product() {
           </div>
         </div>
       </div>
-      <div className="product-related-books">
+      <div className="product-related-books ">
         <h1>Related Books</h1>
         <div>
           {relatedBooks.map((book) => (
