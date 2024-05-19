@@ -4,11 +4,13 @@ import books from "../assets/data/data.json";
 
 export const FilterContext = createContext({
   books: [],
+  isFilterOpen: false,
   handleFilterGenre: () => {},
   handleSelect: () => {},
   handleSort: () => {},
   handleItemsPerPage: () => {},
   handlePageChange: () => {},
+  handleFilterOpen: () => {},
 });
 
 // eslint-disable-next-line react/prop-types
@@ -22,7 +24,7 @@ export default function FilterContextProvider({ children }) {
   const [sorted, setSorted] = useState("byFeatured");
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(24);
-
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
   useEffect(() => {
     handleFilters();
   }, [selectedFilter, sorted]);
@@ -93,11 +95,16 @@ export default function FilterContextProvider({ children }) {
 
   function handlePageChange(page) {
     setCurrentPage(page);
+    window.scrollTo(0, 0);
   }
   function handleItemsPerPage(items) {
     setItemsPerPage(Number(items));
     setCurrentPage(1);
   }
+  function handleFilterOpen() {
+    setIsFilterOpen((oldValue) => !oldValue);
+  }
+
   const ctxValue = {
     books: currentItems,
     handleFilterGenre: handleGenreChange,
@@ -105,9 +112,11 @@ export default function FilterContextProvider({ children }) {
     handleSelect: handleSelectChange,
     handleItemsPerPage,
     handlePageChange,
+    handleFilterOpen,
     currentPage,
     itemsPerPage,
     totalPages,
+    isFilterOpen,
   };
 
   return (

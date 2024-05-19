@@ -8,15 +8,19 @@
 .cart-modal-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 100%;
+  height: 90%;
 }
 #cart-modal::backdrop {
   background: rgba(0, 0, 0, 0.3);
 }
 .cart-products {
   padding: 2rem;
-  display: grid;
-  grid-template-rows: 10% 80% 10%;
+}
+.cart-title {
+  padding: 1rem 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .cart-checkout {
   padding: 8rem 2rem;
@@ -30,7 +34,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0px 0px 15px #585858;
+  box-shadow: 0px 0px 5px #585858;
 }
 .cs-sub {
   display: grid;
@@ -46,19 +50,20 @@
   border: 0;
   border-radius: 0.5em;
   font-size: 16px;
-  box-shadow: 0px 0px 15px #6e0a0a;
+  box-shadow: 0px 0px 5px #6e0a0a;
 }
 .cart-summary-btn:hover {
   background-color: #6e0a0a;
   cursor: pointer;
 }
 .cart-go-back {
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
   border: 0;
   width: 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   cursor: pointer;
   background-color: transparent;
 }
@@ -69,7 +74,8 @@
 #shopping-cart {
   padding: 2rem 0.5rem 0 0;
   overflow: auto;
-  height: 25rem;
+  min-height: 20rem;
+  max-height: 25rem;
 }
 
 .cart-item {
@@ -125,16 +131,12 @@
 
 @media (max-width: 1024px) {
   #shopping-cart {
-    padding: 2rem 0 0 0;
-    height: 25rem;
+    padding: 0;
+    height: 70%rem;
   }
-  .cart-products {
-    padding: 2rem 0.5rem;
-  }
-}
-@media (max-width: 768px) {
   #cart-modal {
     height: 90vh;
+    width: 90vw;
   }
   .cart-modal-wrapper {
     display: flex;
@@ -159,16 +161,44 @@
     justify-content: space-between;
   }
 }
+
 @media (max-width: 475px) {
   .cart-item {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
   .cart-item img {
     place-self: center;
   }
   .cart-item-content {
     grid-area: 1 / 2 / 2 /4;
+  }
+}
+@media (max-width: 400px) {
+  .cart-title {
+    padding: 0.5rem 0.2rem 0;
+  }
+  .cart-title h1 {
+    font-size: 23px;
+  }
+  .cart-products {
+    padding: 0 0 2rem;
+    height: 45vh;
+  }
+  .cart-checkout {
+    padding: 0;
+  }
+  .cart-summary {
+    padding: 0.5rem;
+    width: 90%;
+    height: 12rem;
+  }
+  .cart-summary-btn {
+    margin-top: 0.5rem;
+    width: 95%;
+    height: 4rem;
+    font-size: 16px;
   }
 }

@@ -30,7 +30,11 @@ export default function NavBar() {
             <img src={logo} alt="logo" />
           </Link>
           <label htmlFor="" className="menu-icon" onClick={handleMenuClick}>
-            {!isMenuOpen ? <i className="bx bx-menu"></i> : <p>✖</p>}
+            {!isMenuOpen ? (
+              <i className="bx bx-menu"></i>
+            ) : (
+              <i className="bx bx-x"></i>
+            )}
           </label>
           <div>
             <ul className={isMenuOpen ? "dropdown-menu" : "menu-list"}>

@@ -14,17 +14,20 @@ const CartModal = forwardRef(function Modal({ title }, ref) {
 
   return (
     <dialog id="cart-modal" className="container" ref={dialog}>
+      <div className="cart-title">
+        <h1>{title}</h1>
+        <form method="dialog">
+          <button className="cart-go-back">
+            {" "}
+            <strong>
+              <i className="bx bx-x bx-md"></i>
+            </strong>
+          </button>
+        </form>
+      </div>
       <div className="cart-modal-wrapper">
         <div className="cart-products">
-          <h1>{title}</h1>
           <Cart />
-          <form method="dialog">
-            <button className="cart-go-back">
-              {" "}
-              <i className="bx bx-chevrons-left"></i>
-              <strong>GO BACK</strong>
-            </button>
-          </form>
         </div>
         <div className="cart-checkout">
           <CartCheckout />
