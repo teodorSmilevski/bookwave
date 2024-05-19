@@ -56,7 +56,6 @@ export default function NavBar() {
             </ul>
           </div>
           <div className="nav-search-cart">
-            <i className="bx bx-search bx-sm"></i>
             <i className="bx bx-cart bx-sm" onClick={handleOpenCart}></i>
             {itemsQuantity !== 0 && itemsQuantity}
           </div>

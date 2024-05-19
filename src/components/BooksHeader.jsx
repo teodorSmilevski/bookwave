@@ -1,6 +1,7 @@
 // eslint-disable-next-line react/prop-types
 import { useContext } from "react";
 import { FilterContext } from "../store/filter-items-context";
+
 export default function BooksHeader() {
   const { handleSort, handleItemsPerPage, handleFilterOpen } =
     useContext(FilterContext);
