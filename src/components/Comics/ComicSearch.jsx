@@ -1,7 +1,12 @@
+import Search from "./Search";
+
 export default function ComicSearch() {
   return (
-    <div>
-      <h1>aaa</h1>
-    </div>
+    <section className="comics-search">
+      <div className="comics-search-wrapper container">
+        <h1>EXPLORE MORE</h1>
+        <Search />
+      </div>
+    </section>
   );
 }

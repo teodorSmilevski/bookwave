@@ -83,7 +83,57 @@
 .comic-store-btn {
   width: 100%;
 }
+/* SECTION: */
 
+.comics-search {
+  width: 100%;
+  background-color: var(--beige);
+  height: auto;
+}
+.comics-search-wrapper {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+.comics-search-wrapper h1 {
+  font-size: 30px;
+  color: var(--dark-red);
+  font-weight: 800;
+}
+.comics-search-wrapper input {
+  width: 290px;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Bangers", cursive;
+  padding: 0.5em 0;
+}
+
+.comic-search-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.comic-search-btns button {
+  font-size: 1.2em;
+  padding: 0.2em 2em;
+  margin: 1em 0;
+  cursor: pointer;
+  font-family: "Bangers", cursive;
+  background: var(--dark-red);
+  transition: linear 0.2s;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+  color: var(--beige);
+
+  &:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px black;
+  }
+}
+/* SECTION: */
 /* 2xl */
 @media (max-width: 1536px) {
   .comic-store-books {
