@@ -1,5 +1,6 @@
 [
   {
+    "id": "comic/1",
     "Series": "Marvel Comics",
     "Year": 1939,
     "Published": "October 1939",
@@ -8,7 +9,8 @@
     "Price": 6
   },
   {
-    "Series": "Marvel Mystery Comics",
+    "id": "comic/2",
+    "Series": "Marvel Mystery",
     "Year": 1939,
     "Published": "December 1939 - June 1949",
     "Series Link": "https://www.comics.org/series/137/",
@@ -16,7 +18,8 @@
     "Price": 9
   },
   {
-    "Series": "Daring Mystery Comics",
+    "id": "comic/3",
+    "Series": "Daring Mystery",
     "Year": 1940,
     "Published": "January 1940 - January 1942",
     "Series Link": "https://www.comics.org/series/177/",
@@ -24,7 +27,8 @@
     "Price": 7
   },
   {
-    "Series": "The Human Torch",
+    "id": "comic/4",
+    "Series": "Daring Comics",
     "Year": 1940,
     "Published": "Fall 1940 - August 1954",
     "Series Link": "https://www.comics.org/series/178/",
@@ -32,6 +36,7 @@
     "Price": 10
   },
   {
+    "id": "comic/5",
     "Series": "Mystic Comics",
     "Year": 1940,
     "Published": "March 1940 - August 1942",
@@ -40,7 +45,8 @@
     "Price": 8
   },
   {
-    "Series": "Red Raven Comics",
+    "id": "comic/6",
+    "Series": "Mystic Comics 2",
     "Year": 1940,
     "Published": "August 1940",
     "Series Link": "https://www.comics.org/series/180/",
@@ -48,7 +54,8 @@
     "Price": 9
   },
   {
-    "Series": "Snap",
+    "id": "comic/7",
+    "Series": "Red Raven",
     "Year": 1943,
     "Published": "January 1943 - ?",
     "Series Link": "https://www.comics.org/series/111924/",
@@ -56,7 +63,8 @@
     "Price": 5
   },
   {
-    "Series": "All-Winners Comics",
+    "id": "comic/8",
+    "Series": "All-Winners",
     "Year": 1941,
     "Published": "Summer 1941 - Winter 1946-47",
     "Series Link": "https://www.comics.org/series/236/",
@@ -64,7 +72,8 @@
     "Price": 7
   },
   {
-    "Series": "Captain America Comics",
+    "id": "comic/9",
+    "Series": "Captain America",
     "Year": 1941,
     "Published": "March 1941 - July 1949",
     "Series Link": "https://www.comics.org/series/237/",
@@ -72,6 +81,7 @@
     "Price": 6
   },
   {
+    "id": "comic/10",
     "Series": "Gayety",
     "Year": 1985,
     "Published": "September 1941 - ?",
@@ -80,6 +90,7 @@
     "Price": 5
   },
   {
+    "id": "comic/11",
     "Series": "Jest",
     "Year": 1941,
     "Published": "July 1941 - January 1964",
@@ -88,6 +99,7 @@
     "Price": 9
   },
   {
+    "id": "comic/12",
     "Series": "Joker",
     "Year": 1941,
     "Published": "October 1941",
@@ -96,7 +108,8 @@
     "Price": 10
   },
   {
-    "Series": "Sub-Mariner Comics",
+    "id": "comic/13",
+    "Series": "Sub-Mariner",
     "Year": 1941,
     "Published": "Spring 1941 - June 1949",
     "Series Link": "https://www.comics.org/series/239/",
@@ -104,6 +117,7 @@
     "Price": 8
   },
   {
+    "id": "comic/14",
     "Series": "USA Comics",
     "Year": 1941,
     "Published": "August 1941 - Fall 1945",
@@ -112,6 +126,7 @@
     "Price": 8
   },
   {
+    "id": "comic/15",
     "Series": "Young Allies",
     "Year": 1941,
     "Published": "Summer 1941 - October 1946",
@@ -120,6 +135,7 @@
     "Price": 7
   },
   {
+    "id": "comic/16",
     "Series": "Zippy",
     "Year": 1941,
     "Published": "1941",
@@ -128,6 +144,7 @@
     "Price": 6
   },
   {
+    "id": "comic/17",
     "Series": "Captain America",
     "Year": 1942,
     "Published": "1942",
@@ -136,6 +153,7 @@
     "Price": 9
   },
   {
+    "id": "comic/18",
     "Series": "Comedy",
     "Year": 1942,
     "Published": "January 1942 - July 1943",
@@ -144,6 +162,7 @@
     "Price": 5
   },
   {
+    "id": "comic/19",
     "Series": "Comedy Comics",
     "Year": 1942,
     "Published": "April 1942 - Fall 1946",
@@ -152,6 +171,7 @@
     "Price": 6
   },
   {
+    "id": "comic/20",
     "Series": "Joker",
     "Year": 1942,
     "Published": "Spring 1942 - Fall 1943",
@@ -160,6 +180,7 @@
     "Price": 7
   },
   {
+    "id": "comic/21",
     "Series": "Joker Comics",
     "Year": 1942,
     "Published": "April 1942 - August 1950",
@@ -168,6 +189,7 @@
     "Price": 9
   },
   {
+    "id": "comic/22",
     "Series": "Krazy Komics",
     "Year": 1942,
     "Published": "July 1942 - Spring 1947",
@@ -176,6 +198,7 @@
     "Price": 6
   },
   {
+    "id": "comic/23",
     "Series": "Miss Fury",
     "Year": 1943,
     "Published": "Winter 1942-43 - Winter 1945-46",
@@ -184,6 +207,7 @@
     "Price": 8
   },
   {
+    "id": "comic/24",
     "Series": "Stag",
     "Year": 1942,
     "Published": "1942",
@@ -192,7 +216,8 @@
     "Price": 6
   },
   {
-    "Series": "Terry-Toons Comics",
+    "id": "comic/25",
+    "Series": "Terry-Toons",
     "Year": 1942,
     "Published": "October 1942 - August 1947",
     "Series Link": "https://www.comics.org/series/301/",
@@ -200,6 +225,7 @@
     "Price": 7
   },
   {
+    "id": "comic/26",
     "Series": "Tough Kid Squad",
     "Year": 1942,
     "Published": "December 1942 - Summer 1943",
@@ -208,31 +234,43 @@
     "Price": 8
   },
   {
-    "Series": "All Select Comics",
-    "Year": 1943,
-    "Published": "Fall 1943 - Fall 1946",
-    "Series Link": "https://www.comics.org/series/324/",
+    "id": "comic/27",
+    "Series": "Select Comics",
+    "Year": 1942,
+    "Published": "1942",
+    "Series Link": "https://www.comics.org/series/129744/",
     "Cover": "comics/27.jpg",
-    "Price": 7
+    "Price": 6
   },
   {
-    "Series": "All Surprise",
-    "Year": 1943,
-    "Published": "Fall 1943 - Winter 1946-1947",
-    "Series Link": "https://www.comics.org/series/325/",
+    "id": "comic/28",
+    "Series": "Ziggy Pig",
+    "Year": 1944,
+    "Published": "1944",
+    "Series Link": "https://www.comics.org/series/92353/",
     "Cover": "comics/28.jpg",
-    "Price": 8
-  },
-
-  {
-    "Series": "Kid Komics",
-    "Year": 1943,
-    "Published": "April 1943 - 1950",
-    "Series Link": "https://www.comics.org/series/80810/",
-    "Cover": "comics/30.jpg",
     "Price": 7
   },
   {
+    "id": "comic/29",
+    "Series": "Gayety 3",
+    "Year": 1951,
+    "Published": "December 1951 - July 1957",
+    "Series Link": "https://www.comics.org/series/524/",
+    "Cover": "comics/29.jpg",
+    "Price": 9
+  },
+  {
+    "id": "comic/30",
+    "Series": "Kid Komics",
+    "Year": 1954,
+    "Published": "October 1954 - July 1955",
+    "Series Link": "https://www.comics.org/series/1457/",
+    "Cover": "comics/30.jpg",
+    "Price": 10
+  },
+  {
+    "id": "comic/31",
     "Series": "Powerhouse Pepper",
     "Year": 1943,
     "Published": "April 1943 - 1950",
@@ -241,6 +279,7 @@
     "Price": 9
   },
   {
+    "id": "comic/32",
     "Series": "Salute",
     "Year": 1943,
     "Published": "February 1943 - September 1956",
@@ -249,6 +288,7 @@
     "Price": 6
   },
   {
+    "id": "comic/33",
     "Series": "Super Rabbit",
     "Year": 1945,
     "Published": "December 1945 - June 1952",
@@ -257,6 +297,7 @@
     "Price": 10
   },
   {
+    "id": "comic/34",
     "Series": "Amazing Comics",
     "Year": 1947,
     "Published": "February 1947 - September 1948",
@@ -265,6 +306,7 @@
     "Price": 8
   },
   {
+    "id": "comic/35",
     "Series": "Comic Capers",
     "Year": 1944,
     "Published": "December 1944 - March 1959",
@@ -273,6 +315,7 @@
     "Price": 9
   },
   {
+    "id": "comic/36",
     "Series": "Complete Comics",
     "Year": 1948,
     "Published": "August 1948 - December 1952",
