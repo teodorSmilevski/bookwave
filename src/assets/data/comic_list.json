@@ -4,7 +4,7 @@
     "Year": 1939,
     "Published": "October 1939",
     "Series Link": "https://www.comics.org/series/136/",
-    "Cover": "https://files1.comics.org//img/gcd/covers_by_id/1063/w200/1063250.jpg?-5905566011874871880",
+    "Cover": "comics/1.jpg",
     "Price": 6
   },
   {
@@ -12,7 +12,7 @@
     "Year": 1939,
     "Published": "December 1939 - June 1949",
     "Series Link": "https://www.comics.org/series/137/",
-    "Cover": "",
+    "Cover": "comics/2.jpg",
     "Price": 9
   },
   {
@@ -20,7 +20,7 @@
     "Year": 1940,
     "Published": "January 1940 - January 1942",
     "Series Link": "https://www.comics.org/series/177/",
-    "Cover": "",
+    "Cover": "comics/3.jpg",
     "Price": 7
   },
   {
@@ -28,7 +28,7 @@
     "Year": 1940,
     "Published": "Fall 1940 - August 1954",
     "Series Link": "https://www.comics.org/series/178/",
-    "Cover": "",
+    "Cover": "comics/4.jpg",
     "Price": 10
   },
   {
@@ -36,7 +36,7 @@
     "Year": 1940,
     "Published": "March 1940 - August 1942",
     "Series Link": "https://www.comics.org/series/179/",
-    "Cover": "",
+    "Cover": "comics/5.jpg",
     "Price": 8
   },
   {
@@ -44,7 +44,7 @@
     "Year": 1940,
     "Published": "August 1940",
     "Series Link": "https://www.comics.org/series/180/",
-    "Cover": "",
+    "Cover": "comics/6.jpg",
     "Price": 9
   },
   {
@@ -52,7 +52,7 @@
     "Year": 1943,
     "Published": "January 1943 - ?",
     "Series Link": "https://www.comics.org/series/111924/",
-    "Cover": "",
+    "Cover": "comics/7.jpg",
     "Price": 5
   },
   {
@@ -60,7 +60,7 @@
     "Year": 1941,
     "Published": "Summer 1941 - Winter 1946-47",
     "Series Link": "https://www.comics.org/series/236/",
-    "Cover": "",
+    "Cover": "comics/8.jpg",
     "Price": 7
   },
   {
@@ -68,7 +68,7 @@
     "Year": 1941,
     "Published": "March 1941 - July 1949",
     "Series Link": "https://www.comics.org/series/237/",
-    "Cover": "",
+    "Cover": "comics/9.jpg",
     "Price": 6
   },
   {
@@ -76,7 +76,7 @@
     "Year": 1985,
     "Published": "September 1941 - ?",
     "Series Link": "https://www.comics.org/series/95255/",
-    "Cover": "",
+    "Cover": "comics/10.jpg",
     "Price": 5
   },
   {
@@ -84,7 +84,7 @@
     "Year": 1941,
     "Published": "July 1941 - January 1964",
     "Series Link": "https://www.comics.org/series/76190/",
-    "Cover": "",
+    "Cover": "comics/11.jpg",
     "Price": 9
   },
   {
@@ -92,7 +92,7 @@
     "Year": 1941,
     "Published": "October 1941",
     "Series Link": "https://www.comics.org/series/92580/",
-    "Cover": "",
+    "Cover": "comics/12.jpg",
     "Price": 10
   },
   {
@@ -100,15 +100,15 @@
     "Year": 1941,
     "Published": "Spring 1941 - June 1949",
     "Series Link": "https://www.comics.org/series/239/",
-    "Cover": "",
+    "Cover": "comics/13.jpg",
     "Price": 8
   },
   {
-    "Series": "U. S. A. Comics [USA Comics; U.S.A. Comics]",
+    "Series": "USA Comics",
     "Year": 1941,
     "Published": "August 1941 - Fall 1945",
     "Series Link": "https://www.comics.org/series/240/",
-    "Cover": "",
+    "Cover": "comics/14.jpg",
     "Price": 8
   },
   {
@@ -116,7 +116,7 @@
     "Year": 1941,
     "Published": "Summer 1941 - October 1946",
     "Series Link": "https://www.comics.org/series/241/",
-    "Cover": "",
+    "Cover": "comics/15.jpg",
     "Price": 7
   },
   {
@@ -124,15 +124,15 @@
     "Year": 1941,
     "Published": "1941",
     "Series Link": "https://www.comics.org/series/109677/",
-    "Cover": "",
+    "Cover": "comics/16.jpg",
     "Price": 6
   },
   {
-    "Series": "Captain America Comics ",
+    "Series": "Captain America",
     "Year": 1942,
     "Published": "1942",
     "Series Link": "https://www.comics.org/series/59152/",
-    "Cover": "",
+    "Cover": "comics/17.jpg",
     "Price": 9
   },
   {
@@ -140,7 +140,7 @@
     "Year": 1942,
     "Published": "January 1942 - July 1943",
     "Series Link": "https://www.comics.org/series/116073/",
-    "Cover": "",
+    "Cover": "comics/18.jpg",
     "Price": 5
   },
   {
@@ -148,7 +148,7 @@
     "Year": 1942,
     "Published": "April 1942 - Fall 1946",
     "Series Link": "https://www.comics.org/series/297/",
-    "Cover": "",
+    "Cover": "comics/19.jpg",
     "Price": 6
   },
   {
@@ -156,7 +156,7 @@
     "Year": 1942,
     "Published": "Spring 1942 - Fall 1943",
     "Series Link": "https://www.comics.org/series/75375/",
-    "Cover": "",
+    "Cover": "comics/20.jpg",
     "Price": 7
   },
   {
@@ -164,7 +164,7 @@
     "Year": 1942,
     "Published": "April 1942 - August 1950",
     "Series Link": "https://www.comics.org/series/298/",
-    "Cover": "",
+    "Cover": "comics/21.jpg",
     "Price": 9
   },
   {
@@ -172,7 +172,7 @@
     "Year": 1942,
     "Published": "July 1942 - Spring 1947",
     "Series Link": "https://www.comics.org/series/299/",
-    "Cover": "",
+    "Cover": "comics/22.jpg",
     "Price": 6
   },
   {
@@ -180,7 +180,7 @@
     "Year": 1943,
     "Published": "Winter 1942-43 - Winter 1945-46",
     "Series Link": "https://www.comics.org/series/300/",
-    "Cover": "",
+    "Cover": "comics/23.jpg",
     "Price": 8
   },
   {
@@ -188,7 +188,7 @@
     "Year": 1942,
     "Published": "1942",
     "Series Link": "https://www.comics.org/series/126741/",
-    "Cover": "",
+    "Cover": "comics/24.jpg",
     "Price": 6
   },
   {
@@ -196,7 +196,7 @@
     "Year": 1942,
     "Published": "October 1942 - August 1947",
     "Series Link": "https://www.comics.org/series/301/",
-    "Cover": "",
+    "Cover": "comics/25.jpg",
     "Price": 7
   },
   {
@@ -204,7 +204,7 @@
     "Year": 1942,
     "Published": "December 1942 - Summer 1943",
     "Series Link": "https://www.comics.org/series/302/",
-    "Cover": "",
+    "Cover": "comics/26.jpg",
     "Price": 8
   },
   {
@@ -212,191 +212,72 @@
     "Year": 1943,
     "Published": "Fall 1943 - Fall 1946",
     "Series Link": "https://www.comics.org/series/324/",
-    "Cover": "",
+    "Cover": "comics/27.jpg",
     "Price": 7
   },
   {
-    "Series": "All Surprise / All Surprise Comics",
+    "Series": "All Surprise",
     "Year": 1943,
     "Published": "Fall 1943 - Winter 1946-1947",
     "Series Link": "https://www.comics.org/series/325/",
-    "Cover": "",
+    "Cover": "comics/28.jpg",
     "Price": 8
   },
-  {
-    "Series": "Gayety",
-    "Year": 1943,
-    "Published": "April 1943 - 1950",
-    "Series Link": "https://www.comics.org/series/79999/",
-    "Cover": "",
-    "Price": 9
-  },
+
   {
     "Series": "Kid Komics",
     "Year": 1943,
-    "Published": "February 1943 - Spring 1946",
-    "Series Link": "https://www.comics.org/series/326/",
-    "Cover": "",
+    "Published": "April 1943 - 1950",
+    "Series Link": "https://www.comics.org/series/80810/",
+    "Cover": "comics/30.jpg",
     "Price": 7
   },
   {
-    "Series": "Powerhouse Pepper Comics",
+    "Series": "Powerhouse Pepper",
     "Year": 1943,
-    "Published": "1943",
-    "Series Link": "https://www.comics.org/series/327/",
-    "Cover": "",
+    "Published": "April 1943 - 1950",
+    "Series Link": "https://www.comics.org/series/116368/",
+    "Cover": "comics/31.jpg",
     "Price": 9
   },
   {
     "Series": "Salute",
     "Year": 1943,
-    "Published": "April 1943",
-    "Series Link": "https://www.comics.org/series/120264/",
-    "Cover": "",
-    "Price": 8
+    "Published": "February 1943 - September 1956",
+    "Series Link": "https://www.comics.org/series/326/",
+    "Cover": "comics/32.jpg",
+    "Price": 6
   },
   {
-    "Series": "Super Rabbit Comics",
-    "Year": 1943,
-    "Published": "1944 - November 1948",
-    "Series Link": "https://www.comics.org/series/328/",
-    "Cover": "",
-    "Price": 8
+    "Series": "Super Rabbit",
+    "Year": 1945,
+    "Published": "December 1945 - June 1952",
+    "Series Link": "https://www.comics.org/series/380/",
+    "Cover": "comics/33.jpg",
+    "Price": 10
   },
   {
     "Series": "Amazing Comics",
-    "Year": 1944,
-    "Published": "Fall 1944",
-    "Series Link": "https://www.comics.org/series/358/",
-    "Cover": "",
-    "Price": 10
+    "Year": 1947,
+    "Published": "February 1947 - September 1948",
+    "Series Link": "https://www.comics.org/series/429/",
+    "Cover": "comics/34.jpg",
+    "Price": 8
   },
   {
     "Series": "Comic Capers",
     "Year": 1944,
-    "Published": "Fall 1944 - Fall 1946",
-    "Series Link": "https://www.comics.org/series/359/",
-    "Cover": "",
-    "Price": 7
+    "Published": "December 1944 - March 1959",
+    "Series Link": "https://www.comics.org/series/381/",
+    "Cover": "comics/35.jpg",
+    "Price": 9
   },
   {
     "Series": "Complete Comics",
-    "Year": 1944,
-    "Published": "Winter 1944-1945",
-    "Series Link": "https://www.comics.org/series/360/",
-    "Cover": "",
-    "Price": 12
-  },
-  {
-    "Series": "Daring Comics",
-    "Year": 1944,
-    "Published": "Fall 1944 - Fall 1945",
-    "Series Link": "https://www.comics.org/series/361/",
-    "Cover": "",
-    "Price": 8
-  },
-  {
-    "Series": "Funny Tunes",
-    "Year": 1944,
-    "Published": "Summer 1944 - Fall 1946",
-    "Series Link": "https://www.comics.org/series/362/",
-    "Cover": "",
-    "Price": 6
-  },
-  {
-    "Series": "Gay Comics",
-    "Year": 1944,
-    "Published": "March 1944",
-    "Series Link": "https://www.comics.org/series/394/",
-    "Cover": "",
-    "Price": 9
-  },
-  {
-    "Series": "Gay Comics",
-    "Year": 1944,
-    "Published": "Fall 1944 - October 1949",
-    "Series Link": "https://www.comics.org/series/395/",
-    "Cover": "",
-    "Price": 5
-  },
-  {
-    "Series": "Ideal Comics",
-    "Year": 1944,
-    "Published": "Fall 1944 - Spring 1946",
-    "Series Link": "https://www.comics.org/series/363/",
-    "Cover": "",
-    "Price": 11
-  },
-  {
-    "Series": "Junior Miss",
-    "Year": 1944,
-    "Published": "Winter 1944",
-    "Series Link": "https://www.comics.org/series/364/",
-    "Cover": "",
-    "Price": 10
-  },
-  {
-    "Series": "Marine Comedy",
-    "Year": 1944,
-    "Published": "Winter 1944",
-    "Series Link": "https://www.comics.org/series/116080/",
-    "Cover": "",
-    "Price": 6
-  },
-  {
-    "Series": "Miss America Comics",
-    "Year": 1944,
-    "Published": "1944",
-    "Series Link": "https://www.comics.org/series/365/",
-    "Cover": "",
+    "Year": 1948,
+    "Published": "August 1948 - December 1952",
+    "Series Link": "https://www.comics.org/series/428/",
+    "Cover": "comics/36.jpg",
     "Price": 7
-  },
-  {
-    "Series": "Miss America Magazine",
-    "Year": 1944,
-    "Published": "November 1944 - March 1953",
-    "Series Link": "https://www.comics.org/series/366/",
-    "Cover": "",
-    "Price": 12
-  },
-  {
-    "Series": "Mystic Comics",
-    "Year": 1944,
-    "Published": "October 1944 - March 1945",
-    "Series Link": "https://www.comics.org/series/367/",
-    "Cover": "",
-    "Price": 8
-  },
-  {
-    "Series": "Tessie the Typist Comics",
-    "Year": 1944,
-    "Published": "Summer 1944 - August 1949",
-    "Series Link": "https://www.comics.org/series/368/",
-    "Cover": "",
-    "Price": 9
-  },
-  {
-    "Series": "Ziggy Pig - Silly Seal Comics",
-    "Year": 1944,
-    "Published": "1944 - September 1946",
-    "Series Link": "https://www.comics.org/series/369/",
-    "Cover": "",
-    "Price": 5
-  },
-  {
-    "Series": "Animated Movie Tunes",
-    "Year": 1945,
-    "Published": "Fall 1945 - Summer 1946",
-    "Series Link": "https://www.comics.org/series/409/",
-    "Cover": "",
-    "Price": 10
-  },
-  {
-    "Series": "Comics for Kids",
-    "Year": 1945,
-    "Published": "1945 - Summer 1945",
-    "Series Link": "https://www.comics.org/series/410/",
-    "Cover": "",
-    "Price": 6
   }
 ]
