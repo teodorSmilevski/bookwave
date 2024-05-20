@@ -8,6 +8,7 @@ import Filter from "../components/Filter";
 import BooksHeader from "../components/BooksHeader";
 import FilterModal from "../components/FilterModal";
 
+import comic from "../assets/data/comic_list.json";
 export default function Bookstore() {
   const modal = useRef();
   const { books, currentPage, totalPages, handlePageChange, isFilterOpen } =
@@ -19,7 +20,9 @@ export default function Bookstore() {
       <FilterModal ref={modal} />
       <section id="bookstore" className="container">
         <BooksHeader />
-
+        <h1>{comic[0].Series}</h1>
+        <p>{comic[0].Cover}</p>
+        <img src={comic[0].Cover} alt="" />
         <div id="books-wrapper">
           <Filter />
           <div>

@@ -11,6 +11,7 @@ export const FilterContext = createContext({
   handleItemsPerPage: () => {},
   handlePageChange: () => {},
   handleFilterOpen: () => {},
+  handleSearch: () => {},
 });
 
 // eslint-disable-next-line react/prop-types
@@ -25,12 +26,26 @@ export default function FilterContextProvider({ children }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(24);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
+  const [search, setSearch] = useState("");
+
   useEffect(() => {
     handleFilters();
-  }, [selectedFilter, sorted]);
+  }, [selectedFilter, sorted, search]);
 
   function handleFilters() {
     let tempBooks = [...books];
+    // Search bar
+    if (search.length > 0) {
+      tempBooks = tempBooks.filter((book) => {
+        let title = book.title.toLowerCase();
+        let author = book.author.toLowerCase();
+
+        return (
+          title.includes(search.toLowerCase()) ||
+          author.includes(search.toLowerCase())
+        );
+      });
+    }
 
     // Filter by genre
     if (selectedFilter.Genre.length > 0) {
@@ -87,6 +102,10 @@ export default function FilterContextProvider({ children }) {
     setSorted(e.target.value);
   }
 
+  function handleSearch(e) {
+    setSearch(e.target.value);
+  }
+
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = filteredBooks.slice(indexOfFirstItem, indexOfLastItem);
@@ -113,6 +132,7 @@ export default function FilterContextProvider({ children }) {
     handleItemsPerPage,
     handlePageChange,
     handleFilterOpen,
+    handleSearch,
     currentPage,
     itemsPerPage,
     totalPages,
