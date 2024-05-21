@@ -1,4 +1,4 @@
-# My Portfolio Website <img src="https://github.com/teodorSmilevski/teodorSmilevski/assets/123021464/6805c65a-5201-412c-a0ca-79036334b542" width="70" height="40" align="right">
+# Bookwave <img src="https://github.com/teodorSmilevski/teodorSmilevski/assets/123021464/6805c65a-5201-412c-a0ca-79036334b542" width="70" height="40" align="right">
 
 Welcome to **Bookwave**, an online bookstore website designed to provide a seamless and dynamic shopping experience for book enthusiasts. This project showcases a modern frontend development approach using React and various advanced techniques.
 
