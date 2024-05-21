@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export default function ComicsData({ data }) {
   return (
-    <div className="comics-data">
+    <div className="comic-characters">
       {data.map((comic) => {
         const detailsUrl = comic.urls.find(
           (element) => element["type"] === "detail"
@@ -10,7 +10,7 @@ export default function ComicsData({ data }) {
         return (
           <a
             key={comic.id}
-            className="comic-data-card"
+            className="comic-character-card"
             style={{
               background: `url(${comic.thumbnail.path}.${comic.thumbnail.extension}) no-repeat center`,
               backgroundSize: "cover",
