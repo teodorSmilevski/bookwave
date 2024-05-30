@@ -218,13 +218,14 @@
 
 /* SECTION: COMICS FEATURE */
 #comic-feature {
-  display: flex;
-  justify-content: center;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 3rem 0rem;
 }
 #comic-feature > div {
   background-image: url("../assets/comic-wallpaper.png");
-  width: 100%;
+
   background-size: cover;
   height: 40vh;
   color: white;
@@ -253,6 +254,9 @@
   .container {
     max-width: 1280px;
   }
+  #comic-feature {
+    max-width: 1280px;
+  }
   #comic-feature > div {
     height: 35vh;
   }
@@ -261,6 +265,9 @@
 /* xl */
 @media (max-width: 1280px) {
   .container {
+    max-width: 1024px;
+  }
+  #comic-feature {
     max-width: 1024px;
   }
   .na-cards {
@@ -276,7 +283,9 @@
   .container {
     max-width: 768px;
   }
-
+  #comic-feature {
+    max-width: 768px;
+  }
   .lp-image img {
     width: 350px;
     height: 350px;
@@ -301,6 +310,9 @@
 /* md */
 @media (max-width: 768px) {
   .container {
+    max-width: 640px;
+  }
+  #comic-feature {
     max-width: 640px;
   }
 
@@ -360,8 +372,13 @@
     justify-content: center;
     padding: 0;
   }
+  #comic-feature {
+    max-width: 100%;
+    padding: 0;
+  }
   #comic-feature > div {
-    height: 20vh;
+    height: 25vh;
+    border-radius: 0;
   }
   #cf-text {
     font-size: 12px;
@@ -374,12 +391,9 @@
   .container {
     width: 100%;
   }
-  #comic-feature {
-    width: 380px;
-  }
+
   #comic-feature > div {
-    width: 470px;
-    height: 20vh;
+    height: 25vh;
   }
   #cf-text {
     font-size: 10px;
@@ -391,11 +405,7 @@
 }
 
 @media (max-width: 380px) {
-  #comic-feature {
-    width: 320px;
-  }
   #comic-feature > div {
-    width: 310px;
     height: 20vh;
   }
   #cf-text {

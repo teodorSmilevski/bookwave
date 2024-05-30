@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function ComicsFeature() {
   return (
-    <section id="comic-feature" className="container">
+    <section id="comic-feature">
       <div>
         <div id="cf-text">
           <h1>
