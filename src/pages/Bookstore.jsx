@@ -1,12 +1,12 @@
-import "../components/Bookstore.css";
-import { useContext, useRef } from "react";
-import { FilterContext } from "../store/filter-items-context";
-import ProductCard from "../components/ProductCard";
-import SearchBar from "../components/SearchBar";
+import "@/features/bookstore/Bookstore.css";
+import { FilterContext } from "@/store/filter-items-context";
+import ProductCard from "@/components/ui/ProductCard";
+import SearchBar from "@/features/bookstore/components/SearchBar";
+import Filter from "@/features/filter/Filter";
+import BooksHeader from "@/features/bookstore/components/BooksHeader";
+import FilterModal from "@/features/filter/FilterModal/FilterModal";
 
-import Filter from "../components/Filter";
-import BooksHeader from "../components/BooksHeader";
-import FilterModal from "../components/FilterModal";
+import { useContext, useRef } from "react";
 
 export default function Bookstore() {
   const modal = useRef();

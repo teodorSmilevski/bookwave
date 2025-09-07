@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+import books from "@/assets/data/data.json";
+
 import { createContext, useState, useEffect } from "react";
-import books from "../assets/data/data.json";
 
 export const FilterContext = createContext({
   books: [],

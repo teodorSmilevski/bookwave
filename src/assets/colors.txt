@@ -1,4 +1,0 @@
-dark red: #7D0A0A
-red: #BF3131
-dark beige: #EAD196
-beige: #F3EDC8

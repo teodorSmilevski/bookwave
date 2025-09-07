@@ -1,9 +1,8 @@
-import "../components/HomePage.css";
-import Header from "../components/Header";
-import Quotes from "../components/Quotes";
-import NewReleases from "../components/NewReleases";
-import ComicsFeature from "../components/ComicsFeature";
-import Featured from "../components/Featured";
+import Header from "@/features/home/components/Header";
+import Quotes from "@/features/home/components/Quotes";
+import NewReleases from "@/features/home/components/NewReleases";
+import ComicsFeature from "@/features/home/components/ComicsFeature";
+import Featured from "@/features/home/components/Featured";
 export default function HomePage() {
   return (
     <section>

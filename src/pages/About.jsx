@@ -1,12 +1,11 @@
+import "@/features/about/About.css";
+import aboutImg from "@/assets/images/layout/aboutus.jpg";
+
 import { Link } from "react-router-dom";
-import "../components/About.css";
-import aboutImg from "../assets/aboutus.jpg";
+
 export default function About() {
   return (
     <section className="about-us">
-      {/* <div className="about-wrap">
-        <h1>About Us</h1>
-      </div> */}
       <div className="about-content container">
         <img src={aboutImg} alt="a" />
 
